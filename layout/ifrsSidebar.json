@@ -1,0 +1,144 @@
+{
+  "models": [
+      {
+          "label": "Home",
+          "items": [{ "label": "Dashboard", "icons": "pi pi-fw pi-home", "to": "/" }]
+      },
+      {
+          "label": "UI Components",
+          "items": [
+              { "label": "Form Layout", "icons": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" },
+              { "label": "Input", "icons": "pi pi-fw pi-check-square", "to": "/uikit/input" }
+
+          ]
+      },
+      {
+          "label": "Prime Blocks",
+          "items": [
+              { "label": "Free Blocks", "icons": "pi pi-fw pi-eye", "to": "/blocks", "badge": "NEW" },
+              { "label": "All Blocks", "icons": "pi pi-fw pi-globe", "url": "https://blocks.primereact.org", "target": "_blank" }
+          ]
+      },
+      {
+          "label": "Utilities",
+          "items": [
+              { "label": "Primeicons", "icons": "pi pi-fw pi-prime", "to": "/utilities/icons" },
+              { "label": "PrimeFlex", "icons": "pi pi-fw pi-desktop", "url": "https://www.primefaces.org/primeflex/", "target": "_blank" }
+          ]
+      },
+      {
+          "label": "Pages",
+          "icons": "pi pi-fw pi-briefcase",
+          "to": "/pages",
+          "items": [
+              {
+                  "label": "Landing",
+                  "icons": "pi pi-fw pi-globe",
+                  "to": "/landing"
+              },
+              {
+                  "label": "Auth",
+                  "icons": "pi pi-fw pi-user",
+                  "items": [
+                      {
+                          "label": "Login",
+                          "icons": "pi pi-fw pi-sign-in",
+                          "to": "/auth/login"
+                      },
+                      {
+                          "label": "Error",
+                          "icons": "pi pi-fw pi-times-circle",
+                          "to": "/auth/error"
+                      },
+                      {
+                          "label": "Access Denied",
+                          "icons": "pi pi-fw pi-lock",
+                          "to": "/auth/access"
+                      }
+                  ]
+              },
+              {
+                  "label": "Crud",
+                  "icons": "pi pi-fw pi-pencil",
+                  "to": "/pages/crud"
+              },
+              {
+                  "label": "Timeline",
+                  "icons": "pi pi-fw pi-calendar",
+                  "to": "/pages/timeline"
+              },
+              {
+                  "label": "Not Found",
+                  "icons": "pi pi-fw pi-exclamation-circle",
+                  "to": "/pages/notfound"
+              },
+              {
+                  "label": "Empty",
+                  "icons": "pi pi-fw pi-circle-off",
+                  "to": "/pages/empty"
+              }
+          ]
+      },
+      {
+          "label": "Hierarchy",
+          "items": [
+              {
+                  "label": "Submenu 1",
+                  "icons": "pi pi-fw pi-bookmark",
+                  "items": [
+                      {
+                          "label": "Submenu 1.1",
+                          "icons": "pi pi-fw pi-bookmark",
+                          "items": [
+                              { "label": "Submenu 1.1.1", "icons": "pi pi-fw pi-bookmark" },
+                              { "label": "Submenu 1.1.2", "icons": "pi pi-fw pi-bookmark" },
+                              { "label": "Submenu 1.1.3", "icons": "pi pi-fw pi-bookmark" }
+                          ]
+                      },
+                      {
+                          "label": "Submenu 1.2",
+                          "icons": "pi pi-fw pi-bookmark",
+                          "items": [{ "label": "Submenu 1.2.1", "icons": "pi pi-fw pi-bookmark" }]
+                      }
+                  ]
+              },
+              {
+                  "label": "Submenu 2",
+                  "icons": "pi pi-fw pi-bookmark",
+                  "items": [
+                      {
+                          "label": "Submenu 2.1",
+                          "icons": "pi pi-fw pi-bookmark",
+                          "items": [
+                              { "label": "Submenu 2.1.1", "icons": "pi pi-fw pi-bookmark" },
+                              { "label": "Submenu 2.1.2", "icons": "pi pi-fw pi-bookmark" }
+                          ]
+                      },
+                      {
+                          "label": "Submenu 2.2",
+                          "icons": "pi pi-fw pi-bookmark",
+                          "items": [{ "label": "Submenu 2.2.1", "icons": "pi pi-fw pi-bookmark" }]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "Get Started",
+          "items": [
+              {
+                  "label": "Documentation",
+                  "icons": "pi pi-fw pi-question",
+                  "to": "/documentation"
+              },
+              {
+                  "label": "View Source",
+                  "icons": "pi pi-fw pi-search",
+                  "url": "https://github.com/primefaces/sakai-react",
+                  "target": "_blank"
+              }
+          ]
+      }
+
+  ]
+}

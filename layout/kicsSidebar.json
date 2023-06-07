@@ -1,0 +1,60 @@
+{
+  "models": [
+     {
+          "label": "0. 일러두기",
+          "items": [
+                 { "label": "Disclaimer", "icon": "pi pi-fw pi-home", "to": "/kics/intro" }
+            ]
+     }
+     ,{
+          "label": "I. 총칙",
+          "items": [
+                 { "label": "개요", "icon": "pi pi-fw pi-home", "to": "/kics/100" }
+                ,{ "label": "Term-I.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-1" }
+                ,{ "label": "Term-I2.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-2" }
+                ,{ "label": "Term-I3.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-3" }
+                ,{ "label": "Term-I4.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-4" }
+                ,{ "separator": true  }
+            ]
+     }
+     ,{
+        "label": "I. 총칙aaa",
+        "icon": "pi pi-fw pi-home"
+
+      }
+     ,{
+          "label": "II. 자산 및 부채 평가",
+          "items": [
+               { "label": "221.일반원칙", "icon": "pi pi-fw pi-id-card", "to": "/kics/221" }
+              ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
+
+          ]
+      }
+     ,{
+        "label": "III. 지급여력금액산출",
+        "items": [
+             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
+            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
+
+        ]
+    },
+    {
+        "label": "V. 문서화 요건",
+        "items": [
+             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
+            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
+
+        ]
+    }
+    ,{
+        "label": "VI. 경과조치",
+        "items": [
+             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
+            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
+
+        ]
+    }
+
+
+  ]
+}

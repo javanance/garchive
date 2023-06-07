@@ -1,0 +1,22 @@
+{
+  "models": [
+     {
+          "label": "I. 총칙",
+          "items": [
+                 { "label": "Term-I.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
+                ,{ "label": "Term-I2.총칙", "icon": "pi pi-fw pi-home", "to": "/posts/change-me" }
+                ,{ "label": "Term-I3.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
+                ,{ "label": "Term-I4.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
+                ,{ "separator": true  }
+            ]
+     }
+    ,{
+        "label": "YTM",
+        "items": [
+             { "label": "Data Table", "icon": "pi pi-fw pi-id-card", "to": "/dt" }
+             ,{ "label": "YTM ", "icon": "pi pi-fw pi-id-card", "to": "/ytm/202301" }
+
+        ]
+    }
+  ]
+}
