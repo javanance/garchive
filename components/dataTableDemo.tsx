@@ -4,7 +4,7 @@ import { DataTable} from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import useSWR from 'swr';
 
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+const fetcher = (...param) => fetch(...param).then((res) => res.json());
 
 
 export default function DataTableDemo() {
