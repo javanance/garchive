@@ -1,81 +1,82 @@
 {
   "models": [
       {
-          "label": "Home",
-          "items": [{ "label": "Dashboard", "icons": "pi pi-fw pi-home", "to": "/" }]
-      },
-      {
-          "label": "UI Components",
-          "items": [
-              { "label": "Form Layout", "icons": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" },
-              { "label": "Input", "icons": "pi pi-fw pi-check-square", "to": "/uikit/input" }
-
-          ]
-      },
-      {
-          "label": "Prime Blocks",
-          "items": [
-              { "label": "Free Blocks", "icons": "pi pi-fw pi-eye", "to": "/blocks", "badge": "NEW" },
-              { "label": "All Blocks", "icons": "pi pi-fw pi-globe", "url": "https://blocks.primereact.org", "target": "_blank" }
-          ]
-      },
-      {
-          "label": "Utilities",
-          "items": [
-              { "label": "Primeicons", "icons": "pi pi-fw pi-prime", "to": "/utilities/icons" },
-              { "label": "PrimeFlex", "icons": "pi pi-fw pi-desktop", "url": "https://www.primefaces.org/primeflex/", "target": "_blank" }
-          ]
-      },
-      {
-          "label": "Pages",
-          "icons": "pi pi-fw pi-briefcase",
-          "to": "/pages",
+          "label": "IFRS17",
+          "icons": "pi pi-fw pi-home",
           "items": [
               {
-                  "label": "Landing",
-                  "icons": "pi pi-fw pi-globe",
-                  "to": "/landing"
+                  "label": "1.개요",
+                  "to": "/ifrs/100"
               },
               {
-                  "label": "Auth",
-                  "icons": "pi pi-fw pi-user",
+                  "label": "2.계약관리",
                   "items": [
                       {
-                          "label": "Login",
-                          "icons": "pi pi-fw pi-sign-in",
-                          "to": "/auth/login"
+                          "label": "Pro-process",
+                          "icon": "pi pi-fw pi-home",
+                          "to": "/ifrs/200"
                       },
                       {
-                          "label": "Error",
-                          "icons": "pi pi-fw pi-times-circle",
-                          "to": "/auth/error"
+                          "label": "2.1.보험계약분류",
+                          "to": "/ifrs/210",
+                          "items": [
+                              {
+                                  "label": "2.1.1.기준서 주요내용",
+                                  "to": "/211"
+                              },
+                              {
+                                  "label": "2.1.2.기준서 개정",
+                                  "to": "/212"
+                              },
+                              {
+                                  "label": "2.1.3.이슈사항 분석",
+                                  "to": "/213"
+                              }
+                          ]
                       },
                       {
-                          "label": "Access Denied",
-                          "icons": "pi pi-fw pi-lock",
-                          "to": "/auth/access"
+                          "label": "2.2.구성요소분리",
+                          "to": "/220",
+                          "items": [
+                              {
+                                  "label": "2.2.1.기준서 주요내용",
+                                  "to": "/221"
+                              },
+                              {
+                                  "label": "2.2.2.기준서 개정",
+                                  "to": "/222"
+                              },
+                              {
+                                  "label": "2.2.3.이슈사항 분석",
+                                  "to": "/223"
+                              }
+                          ]
+                      },
+                      {
+                          "models": [
+                              {
+                                  "label": "2.1.보험계약분류",
+                                  "to": "/210",
+                                  "items": [
+                                      {
+                                          "label": "2.1.1.기준서 주요내용",
+                                            "to": "/211"
+                                      },
+                                      {
+                                          "label": "2.1.2.기준서 개정",
+                                          "to": "/212"
+                                      },
+                                      {
+                                          "label": "2.1.3.이슈사항 분석",
+                                          "to": "/213"
+                                      }]
+                            }]
                       }
                   ]
               },
               {
-                  "label": "Crud",
-                  "icons": "pi pi-fw pi-pencil",
-                  "to": "/pages/crud"
-              },
-              {
-                  "label": "Timeline",
-                  "icons": "pi pi-fw pi-calendar",
-                  "to": "/pages/timeline"
-              },
-              {
-                  "label": "Not Found",
-                  "icons": "pi pi-fw pi-exclamation-circle",
-                  "to": "/pages/notfound"
-              },
-              {
-                  "label": "Empty",
-                  "icons": "pi pi-fw pi-circle-off",
-                  "to": "/pages/empty"
+                  "label": "3.최초인식 및 측정",
+                  "to" :"/ifrs/300"
               }
           ]
       },
@@ -122,23 +123,6 @@
                   ]
               }
           ]
-      },
-      {
-          "label": "Get Started",
-          "items": [
-              {
-                  "label": "Documentation",
-                  "icons": "pi pi-fw pi-question",
-                  "to": "/documentation"
-              },
-              {
-                  "label": "View Source",
-                  "icons": "pi pi-fw pi-search",
-                  "url": "https://github.com/primefaces/sakai-react",
-                  "target": "_blank"
-              }
-          ]
       }
-
   ]
 }
