@@ -4,124 +4,14 @@
           "label": "IFRS17",
           "icons": "pi pi-fw pi-home",
           "items": [
-              {
-                  "label": "1.개요",
-                  "to": "/ifrs/100"
-              },
-              {
-                  "label": "2.계약관리",
-                  "items": [
-                      {
-                          "label": "Pro-process",
-                          "icon": "pi pi-fw pi-home",
-                          "to": "/ifrs/200"
-                      },
-                      {
-                          "label": "2.1.보험계약분류",
-                          "to": "/ifrs/210",
-                          "items": [
-                              {
-                                  "label": "2.1.1.기준서 주요내용",
-                                  "to": "/211"
-                              },
-                              {
-                                  "label": "2.1.2.기준서 개정",
-                                  "to": "/212"
-                              },
-                              {
-                                  "label": "2.1.3.이슈사항 분석",
-                                  "to": "/213"
-                              }
-                          ]
-                      },
-                      {
-                          "label": "2.2.구성요소분리",
-                          "to": "/220",
-                          "items": [
-                              {
-                                  "label": "2.2.1.기준서 주요내용",
-                                  "to": "/221"
-                              },
-                              {
-                                  "label": "2.2.2.기준서 개정",
-                                  "to": "/222"
-                              },
-                              {
-                                  "label": "2.2.3.이슈사항 분석",
-                                  "to": "/223"
-                              }
-                          ]
-                      },
-                      {
-                          "models": [
-                              {
-                                  "label": "2.1.보험계약분류",
-                                  "to": "/210",
-                                  "items": [
-                                      {
-                                          "label": "2.1.1.기준서 주요내용",
-                                            "to": "/211"
-                                      },
-                                      {
-                                          "label": "2.1.2.기준서 개정",
-                                          "to": "/212"
-                                      },
-                                      {
-                                          "label": "2.1.3.이슈사항 분석",
-                                          "to": "/213"
-                                      }]
-                            }]
-                      }
-                  ]
-              },
-              {
-                  "label": "3.최초인식 및 측정",
-                  "to" :"/ifrs/300"
-              }
-          ]
-      },
-      {
-          "label": "Hierarchy",
-          "items": [
-              {
-                  "label": "Submenu 1",
-                  "icons": "pi pi-fw pi-bookmark",
-                  "items": [
-                      {
-                          "label": "Submenu 1.1",
-                          "icons": "pi pi-fw pi-bookmark",
-                          "items": [
-                              { "label": "Submenu 1.1.1", "icons": "pi pi-fw pi-bookmark" },
-                              { "label": "Submenu 1.1.2", "icons": "pi pi-fw pi-bookmark" },
-                              { "label": "Submenu 1.1.3", "icons": "pi pi-fw pi-bookmark" }
-                          ]
-                      },
-                      {
-                          "label": "Submenu 1.2",
-                          "icons": "pi pi-fw pi-bookmark",
-                          "items": [{ "label": "Submenu 1.2.1", "icons": "pi pi-fw pi-bookmark" }]
-                      }
-                  ]
-              },
-              {
-                  "label": "Submenu 2",
-                  "icons": "pi pi-fw pi-bookmark",
-                  "items": [
-                      {
-                          "label": "Submenu 2.1",
-                          "icons": "pi pi-fw pi-bookmark",
-                          "items": [
-                              { "label": "Submenu 2.1.1", "icons": "pi pi-fw pi-bookmark" },
-                              { "label": "Submenu 2.1.2", "icons": "pi pi-fw pi-bookmark" }
-                          ]
-                      },
-                      {
-                          "label": "Submenu 2.2",
-                          "icons": "pi pi-fw pi-bookmark",
-                          "items": [{ "label": "Submenu 2.2.1", "icons": "pi pi-fw pi-bookmark" }]
-                      }
-                  ]
-              }
+              { "label": "1.개요", "to": "/ifrs/100"},
+              { "label": "2.계약관리", "to": "/ifrs/200"},
+              { "label": "3.최초인식 및 측정", "to": "/ifrs/300"},
+              { "label": "4.후속측정", "to": "/ifrs/400"},
+              { "label": "5.보험료 배분 접근법", "to": "/ifrs/500"},
+              { "label": "6.변동수수료 접근법", "to": "/ifrs/600"},
+              { "label": "7.출재보험계약", "to": "/ifrs/700"},
+              { "label": "8.표시 및 공시", "to": "/ifrs/800"}
           ]
       }
   ]

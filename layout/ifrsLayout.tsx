@@ -16,24 +16,26 @@ import { ChildContainerProps, LayoutState, AppTopbarRef } from '../types/types';
 // import {models} from './ifrsSidebar.json';
 import JSON from './ifrsSidebar.json';
 
+
 const ContentLayout = ({ children }: ChildContainerProps) => {
     const sidebarRef = useRef<HTMLDivElement>(null);
-    
+
     const {models} = JSON;
-    const model = models;
+    // const model = models;
 
     return (
         <React.Fragment>
             <div className="layout-main-container">
                 <div ref={sidebarRef} className="layout-sidebar">
                     {/* <AppSidebar menu ={model}/> */}
-                    <AppMenu menu =  { model} />
+                    <AppMenu menu =  { models} />
+
                 </div>
                 <div className="layout-doc-main">
                     <h1>
-                        Content Layout  for ifrs in ifrsLayout.tsx with Main, Left, Right Sidebar
-                    </h1> 
-                    {'Content Layout in layout2.tsx with Main, Left, Right Sidebar'}
+                        Content Layout for ifrs in ifrsLayout.tsx with Main, Left, Right Sidebar
+                    </h1>
+                    // {'Content Layout in layout.tsx with Main, Left, Right Sidebar'}
 
                     {children}
                     <div className ="layout-right-sidebar">
