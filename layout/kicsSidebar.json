@@ -1,60 +1,133 @@
 {
   "models": [
      {
-          "label": "0. 일러두기",
+          "label": "Disclaimer",
           "items": [
-                 { "label": "Disclaimer", "icon": "pi pi-fw pi-home", "to": "/kics/intro" }
+                 { "label": "intro", "icon": "pi pi-fw pi-star-fill", "to": "/kics/intro" }
             ]
      }
      ,{
-          "label": "I. 총칙",
+          "label": "KICS",
           "items": [
-                 { "label": "개요", "icon": "pi pi-fw pi-home", "to": "/kics/100" }
-                ,{ "label": "Term-I.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-1" }
-                ,{ "label": "Term-I2.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-2" }
-                ,{ "label": "Term-I3.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-3" }
-                ,{ "label": "Term-I4.총칙", "icon": "pi pi-fw pi-home", "to": "/kics/term-4" }
-                ,{ "separator": true  }
+            {
+                 "label": "I. 총칙",
+                 "items": [
+                        { "label": "개요", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/100" }
+                      , { "label": "용어", "icon": "pi pi-fw pi-plus-circle", "items":[
+                            { "label": "Ⅰ.총칙"              , "to": "/kics/term-1" }
+                           ,{ "label": "Ⅱ. 자산 및 부채 평가"   , "to": "/kics/term-2" }
+                           ,{ "label": "Ⅲ. 지급여력금액산출"     , "to": "/kics/term-3" }
+                           ,{ "label": "IV. 지급여력기준금액산출" , "to": "/kics/term-4" }
+                        ]}
+                   ]
+            }
+            ,{
+                 "label": "II. 자산 및 부채 평가",
+                 "items": [
+                      { "label": "총칙", "icon": "pi pi-fw pi-minus-circle" , "to": "/kics/210"  }
+                     ,{ "label": "자산 및 기타부채", "icon": "pi pi-fw pi-plus-circle"
+                         , "items":[
+                                      { "label": "2-1.일반원칙"      , "to": "/kics/221" }
+                                     ,{ "label": "2-2.할인율산출기준"  , "to": "/kics/222" }
+                                     ,{ "label": "2-3.자산평가기준"    , "to": "/kics/223" }
+                                     ,{ "label": "2-4.기타부채평가기준" , "to": "/kics/224" }
+                                   ]}
+                     ,{ "label": "생명 및 장기손해보험", "icon": "pi pi-fw pi-plus-circle"
+                       , "items":[
+                                    { "label": "3-1.일반원칙"     , "to": "/kics/231" }
+                                   ,{ "label": "3-2.현행추정부채"  , "to": "/kics/232" }
+                                   ,{ "label": "3-3.위험마진"     , "to": "/kics/233" }
+                                   ,{ "label": "3-4.보험계약대출"  , "to": "/kics/234" }
+                                   ,{ "label": "3-5.재보험자산"   , "to": "/kics/235" }
+                                 ]}
+                     ,{ "label": "일반손해보험", "icon": "pi pi-fw pi-plus-circle"
+                       , "items":[
+                                    { "label": "4-1.일반원칙"     , "to": "/kics/241" }
+                                   ,{ "label": "4-2.현행추정부채"  , "to": "/kics/242" }
+                                   ,{ "label": "4-3.위험마진"     , "to": "/kics/243" }
+                                   ,{ "label": "4-4.재보험자산"   , "to": "/kics/244" }
+                                 ]}
+                     ,{ "label": "보험부채 할인율", "icon": "pi pi-fw pi-plus-circle"
+                       , "items":[
+                                    { "label": "5-1.일반원칙"        , "to": "/kics/251" }
+                                   ,{ "label": "5-2.할인율 산출구조"   , "to": "/kics/252" }
+                                   ,{ "label": "5-3.원화 할인율 산출"  , "to": "/kics/253" }
+                                   ,{ "label": "5-4.변동성 조정"      , "to": "/kics/254" }
+                                   ,{ "label": "5-5.매칭 조정"       , "to": "/kics/255" }
+                                 ]}
+                 ]
+             }
+            ,{
+               "label": "III. 지급여력금액산출",
+               "items": [
+                        { "label": "개요", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/310" }
+                       ,{ "label": "계층화", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/320" }
+                       ,{ "label": "자본증권의 계층분류기준", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/330" }
+
+               ]
+            }
+            ,{
+              "label": "IV. 지급여력기준금액산출",
+              "items": [
+                { "label": "총칙", "icon": "pi pi-fw pi-plus-circle", "items":[
+                      { "label": "1-1.측정기준"              , "to": "/kics/411" }
+                     ,{ "label": "1-2.산출구조"              , "to": "/kics/412" }
+                     ,{ "label": "1-3.측정방식"              , "to": "/kics/413" }
+                     ,{ "label": "1-4.편입자산분해"           , "to": "/kics/414" }
+                     ,{ "label": "1-5.위험경감기법"           , "to": "/kics/415" }
+                     ,{ "label": "1-6.비례성의원칙"           , "to": "/kics/416" }
+                     ,{ "label": "1-7.적격인프라투자조건"       , "to": "/kics/417" }
+                     ,{ "label": "1-8.종속회사 및 관계회사의 요구자본산출" , "to": "/kics/418" }
+                  ]}
+               ,{ "label": "생명장기손해보험위험액", "icon": "pi pi-fw pi-plus-circle", "items":[
+                     { "label": "2-1.일반원칙"        , "to": "/kics/421" }
+                    ,{ "label": "2-2.사망위험액"       , "to": "/kics/422" }
+                    ,{ "label": "2-3.장수위험액"       , "to": "/kics/423" }
+                    ,{ "label": "2-4.장해질병위험액"     , "to": "/kics/424" }
+                    ,{ "label": "2-5.장기재물기타위험액"  , "to": "/kics/425" }
+                    ,{ "label": "2-6.해지위험액"        , "to": "/kics/426" }
+                    ,{ "label": "2-7.사업비위험액"       , "to": "/kics/427" }
+                    ,{ "label": "2-8.대재해위험액"       , "to": "/kics/428" }
+                 ]}
+               ,{ "label": "일반손해보험위험액", "icon": "pi pi-fw pi-plus-circle", "items":[
+                     { "label": "3-1.일반원칙"              , "to": "/kics/431" }
+                    ,{ "label": "3-2.보험가격준비금위험액"     , "to": "/kics/432" }
+                    ,{ "label": "3-3.대재해위험액"           , "to": "/kics/433" }
+                 ]}
+               ,{ "label": "시장위험액", "icon": "pi pi-fw pi-plus-circle", "items":[
+                     { "label": "4-1.일반원칙"        , "to": "/kics/441" }
+                    ,{ "label": "4-2.금리위험액"       , "to": "/kics/442" }
+                    ,{ "label": "4-3.주식위험액"       , "to": "/kics/443" }
+                    ,{ "label": "4-4.부동산위험액"     , "to": "/kics/444" }
+                    ,{ "label": "4-5.외환위험액"      , "to": "/kics/445" }
+                    ,{ "label": "4-6.자산집중위험액"   , "to": "/kics/446" }
+                 ]}
+               ,{ "label": "신용위험액", "icon": "pi pi-fw pi-plus-circle", "items":[
+                     { "label": "5-1.익스포져 산출기준"      , "to": "/kics/451" }
+                    ,{ "label": "5-2.신용위험액 산출기준"     , "to": "/kics/452" }
+                    ,{ "label": "5-3.신용위험액 위험경감기법"  , "to": "/kics/453" }
+                 ]}
+               ,{ "label": "운영위험액", "icon": "pi pi-fw pi-plus-circle", "items":[
+                     { "label": "6-1.익스포져 산출기준"    , "to": "/kics/461" }
+                    ,{ "label": "6-2.운영위험액 산출"     , "to": "/kics/462" }
+
+                 ]}
+               ,{ "label": "요구자본에 대한 법인세효과", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/470" }
+              ]
+            }
+            ,{
+               "label": "V. 문서화 요건", "to": "/kics/500"
+            }
+            ,{
+               "label": "VI. 경과조치", "items":[
+                     { "label": "경과조치 모델"         , "icon": "pi pi-fw pi-minus-circle"  , "to": "/kics/610" }
+                    ,{ "label": "경과조치 적용 및 종료"   , "icon": "pi pi-fw pi-minus-circle"  , "to": "/kics/620" }
+
+                 ]
+            }
+
             ]
      }
-     ,{
-        "label": "I. 총칙aaa",
-        "icon": "pi pi-fw pi-home"
-
-      }
-     ,{
-          "label": "II. 자산 및 부채 평가",
-          "items": [
-               { "label": "221.일반원칙", "icon": "pi pi-fw pi-id-card", "to": "/kics/221" }
-              ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
-
-          ]
-      }
-     ,{
-        "label": "III. 지급여력금액산출",
-        "items": [
-             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
-            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
-
-        ]
-    },
-    {
-        "label": "V. 문서화 요건",
-        "items": [
-             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
-            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
-
-        ]
-    }
-    ,{
-        "label": "VI. 경과조치",
-        "items": [
-             { "label": "Form Layout", "icon": "pi pi-fw pi-id-card", "to": "/uikit/formlayout" }
-            ,{ "label": "Input", "icon": "pi pi-fw pi-check-square", "to": "/uikit/input" }
-
-        ]
-    }
-
 
   ]
 }

@@ -10,7 +10,7 @@ import { AppMenuItem } from '../types/types';
 // import {models} from './ifrsSidebar.json';
 
 // const AppMenu = ( {menu} ) => {
-const AppMenu = ( props ) => {    
+const AppMenu = ( props ) => {
     const { layoutConfig } = useContext(LayoutContext);
     const {menu} =  props
     // const model: AppMenuItem[] = models;

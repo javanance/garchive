@@ -10,21 +10,23 @@ title: "IV.1-2. 산출구조"
 ## 나.기본요구자본 [#na]
 기본요구자본은 생명·장기손해보험리스크에 대한 요구자본(이하 ‘생명·장기손해보험위험액’), 일반손해보험리스크에 대한 요구자본(이하 ‘일반손해보험위험액’), 시장리스크에 대한 요구자본(이하 ‘시장위험액’), 신용리스크에 대한 요구자본(이하 ‘신용위험액’) 및 운영리스크에 대한 요구자본(이하 ‘운영위험액’)을 각각 구한 후 다음 계산식에 따라 \<표3>의 상관계수를 적용하여 산출한다.
 
-<Math fontSize ="0.8rem">
+<Math>
+<center>
 기본요구자본 = $\sqrt { \sum_i \sum_j 상관계수_{ij}  \times 개별위험액_{i}  \times 개별위험액_{j}}$ +운영위험액
-
-> - $i,j=$생명장기손해보험,일반손해보험,시장,신용
+</center>
+ - $i,j=$생명장기손해보험,일반손해보험,시장,신용
+</Math>
 
 <iframe
-  width="450"
-  height="180"
+  width="460"
+  height="200"
   frameborder="0"
   scrolling="no"
   title=""
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0XRomFHnFmSo7g5AGXULeCeBGUf4mrVYenxp2H2P7I7IMCOJ8lI8uX8m4fx90J6jPhlnD58ATQPYa/pubhtml?gid=1915585053&amp;range=table3&amp;single=true&amp;widget=true&amp;headers=false">
 </iframe>
 
-</Math>
+
 
 
 <Accordion multiple activeIndex={[]}>
@@ -55,23 +57,13 @@ title: "IV.1-2. 산출구조"
 기타요구자본은 계정별 합산방법으로 요구자본을 산출하지 않는 종속회사 및 관계회사에 적용하는 요구자본을 의미하며, <OverlayDemo id="4_1-8"/>의 \<표4>에서 정한 기준에 따라 업권별 자본규제를 활용하거나 요구자본 대용치(총자산 8%)를 적용하여 산출한다.
 
 <iframe
-  width="590"
-  height="680"
+  width="610"
+  height="700"
   frameborder="0"
   scrolling="no"
   title=""
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0XRomFHnFmSo7g5AGXULeCeBGUf4mrVYenxp2H2P7I7IMCOJ8lI8uX8m4fx90J6jPhlnD58ATQPYa/pubhtml?gid=312001465&amp;range=table4&amp;single=true&amp;widget=true&amp;headers=false">
 </iframe>
-
-<iframe
-  width="700"
-  height="770"
-  frameborder="0"
-  scrolling="no"
-  src="https://onedrive.live.com/embed?resid=AB5F66CE0CF8D024%2116462&authkey=%21AClzDxwv6aRFtvg&em=2&wdAllowInteractivity=False&Item=table4&wdHideGridlines=True&wdDownloadButton=False&wdInConfigurator=False&wdInConfigurator=False&edesNext=false&resen=false&ed1JS=false"
-  style={{
-  }}
-></iframe>
 
 <Accordion multiple activeIndex={[]}>
 <AccordionTab header="기타요구자본은 법인세조정액을 차감하지 않는 이유">
