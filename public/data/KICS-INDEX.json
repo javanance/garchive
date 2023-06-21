@@ -9,7 +9,7 @@
   "desc": "Ⅰ.총 칙”에서 정한 용어",
   "path": "kics/01-intro",
   "FILE": "term-1.mdx",
-  "url": "/kics/01-intro/term-1/#ga"
+  "url": "/kics/100/term-1/#ga"
  },
  {
   "id": "1_2_나",
@@ -21,7 +21,7 @@
   "desc": "Ⅱ.자산 및 부채평가”에서 정한 용어",
   "path": "kics/01-intro",
   "FILE": "term-2.mdx",
-  "url": "/kics/01-intro/term-2/#na"
+  "url": "/kics/100/term-2/#na"
  },
  {
   "id": "1_2_다",
@@ -33,7 +33,7 @@
   "desc": "Ⅲ.지급여력금액 산출”에서 정한 용어",
   "path": "kics/01-intro",
   "FILE": "term-3.mdx",
-  "url": "/kics/01-intro/term-3/#da"
+  "url": "/kics/100/term-3/#da"
  },
  {
   "id": "1_2_라",
@@ -45,7 +45,7 @@
   "desc": "Ⅳ.지급여력기준금액 산출”에서 정한 용어",
   "path": "kics/01-intro",
   "FILE": "term-4.mdx",
-  "url": "/kics/01-intro/term-4/#la"
+  "url": "/kics/100/term-4/#la"
  },
  {
   "id": "1_3_가",
@@ -57,7 +57,7 @@
   "desc": "그룹기준 산출",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#3가"
+  "url": "/kics/100/#3가"
  },
  {
   "id": "1_3_나",
@@ -69,7 +69,7 @@
   "desc": "지급여력금액/지급여력기준금액",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#3나"
+  "url": "/kics/100/#3나"
  },
  {
   "id": "1_4_가",
@@ -81,7 +81,7 @@
   "desc": "그룹기준 지급여력비율",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#4가"
+  "url": "/kics/100/#4가"
  },
  {
   "id": "1_4_나",
@@ -93,7 +93,7 @@
   "desc": "종속회사 (그룹범위에 해당)",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#4나"
+  "url": "/kics/100/#4나"
  },
  {
   "id": "1_4_다",
@@ -105,7 +105,7 @@
   "desc": "비금융회사(연결대상회사에서 제외)",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#4다"
+  "url": "/kics/100/#4다"
  },
  {
   "id": "1_4_라",
@@ -117,7 +117,7 @@
   "desc": "관계회사 세부작성기준 (그룹범위에 해당)",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#4라"
+  "url": "/kics/100/#4라"
  },
  {
   "id": "1_4_마",
@@ -129,7 +129,7 @@
   "desc": "정하지 않은 계정별 합산 방법",
   "path": "kics/01-intro",
   "FILE": "01-intro.mdx",
-  "url": "/kics/01-intro/#4마"
+  "url": "/kics/100/#4마"
  },
  {
   "id": "2_1_가",
@@ -141,7 +141,7 @@
   "desc": "적용범위",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#ga"
+  "url": "/kics/210/#ga"
  },
  {
   "id": "2_1_나",
@@ -153,7 +153,7 @@
   "desc": "평가원칙",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#na"
+  "url": "/kics/210/#na"
  },
  {
   "id": "2_1_다",
@@ -165,7 +165,7 @@
   "desc": "시장가격 및 공정가치의 정의",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#da"
+  "url": "/kics/210/#da"
  },
  {
   "id": "2_1_라",
@@ -177,7 +177,7 @@
   "desc": "공정가치의 분류 및 적용체계",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#la"
+  "url": "/kics/210/#la"
  },
  {
   "id": "2_1_마",
@@ -189,7 +189,7 @@
   "desc": "중요성 판단기준",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#ma"
+  "url": "/kics/210/#ma"
  },
  {
   "id": "2_1_바",
@@ -201,7 +201,7 @@
   "desc": "특별계정의 구분 표시",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#ba"
+  "url": "/kics/210/#ba"
  },
  {
   "id": "2_1_사",
@@ -213,7 +213,7 @@
   "desc": "정보성 계정의 표시",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview/#sa"
+  "url": "/kics/210/#sa"
  },
  {
   "id": "2_2-1_가",
@@ -226,7 +226,7 @@
   "desc": "적용범위",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-1.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-1/#ga"
+  "url": "/kics/221/#ga"
  },
  {
   "id": "2_2-2_가",
@@ -239,7 +239,7 @@
   "desc": "무위험 금리기간구조",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-2.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-2/#ga"
+  "url": "/kics/222/#ga"
  },
  {
   "id": "2_2-2_나",
@@ -252,7 +252,7 @@
   "desc": "위험스프레드",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-2.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-2/#na"
+  "url": "/kics/222/#na"
  },
  {
   "id": "2_2-3_가",
@@ -265,7 +265,7 @@
   "desc": "현금 및 예치금",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#ga"
+  "url": "/kics/223/#ga"
  },
  {
   "id": "2_2-3_나",
@@ -278,7 +278,7 @@
   "desc": "유가증권",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#na"
+  "url": "/kics/223/#na"
  },
  {
   "id": "2_2-3_다",
@@ -291,7 +291,7 @@
   "desc": "대출채권",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#da"
+  "url": "/kics/223/#da"
  },
  {
   "id": "2_2-3_라",
@@ -304,7 +304,7 @@
   "desc": "부동산",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#la"
+  "url": "/kics/223/#la"
  },
  {
   "id": "2_2-3_마",
@@ -317,7 +317,7 @@
   "desc": "재보험자산",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#ma"
+  "url": "/kics/223/#ma"
  },
  {
   "id": "2_2-3_바",
@@ -330,7 +330,7 @@
   "desc": "이연법인세자산(부채)",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#ba"
+  "url": "/kics/223/#ba"
  },
  {
   "id": "2_2-3_사",
@@ -343,7 +343,7 @@
   "desc": "무형자산",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#sa"
+  "url": "/kics/223/#sa"
  },
  {
   "id": "2_2-3_아",
@@ -356,7 +356,7 @@
   "desc": "그 밖의 자산",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3/#aa"
+  "url": "/kics/223/#aa"
  },
  {
   "id": "2_2-4_가",
@@ -369,7 +369,7 @@
   "desc": "금융부채",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-4.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-4/#ga"
+  "url": "/kics/224/#ga"
  },
  {
   "id": "2_2-4_나",
@@ -382,7 +382,7 @@
   "desc": "우발부채",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-4.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-4/#na"
+  "url": "/kics/224/#na"
  },
  {
   "id": "2_2-4_다",
@@ -395,7 +395,7 @@
   "desc": "계약자지분조정",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-4.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-4/#da"
+  "url": "/kics/224/#da"
  },
  {
   "id": "2_2-4_라",
@@ -408,7 +408,7 @@
   "desc": "그 밖의 부채",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-4.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-4/#la"
+  "url": "/kics/224/#la"
  },
  {
   "id": "2_3-1_가",
@@ -421,7 +421,7 @@
   "desc": "적용범위",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-1.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-1/#ga"
+  "url": "/kics/231/#ga"
  },
  {
   "id": "2_3-1_나",
@@ -434,7 +434,7 @@
   "desc": "평가대상",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-1.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-1/#na"
+  "url": "/kics/231/#na"
  },
  {
   "id": "2_3-1_다",
@@ -447,7 +447,7 @@
   "desc": "분류기준",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-1.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-1/#da"
+  "url": "/kics/231/#da"
  },
  {
   "id": "2_3-2_가",
@@ -460,7 +460,7 @@
   "desc": "원칙",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-1.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#ga"
+  "url": "/kics/232/#ga"
  },
  {
   "id": "2_3-2_나",
@@ -473,7 +473,7 @@
   "desc": "보험료부채",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#na"
+  "url": "/kics/232/#na"
  },
  {
   "id": "2_3-2_나1",
@@ -486,7 +486,7 @@
   "desc": "보험료부채_현금흐름 산출단위",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#na1"
+  "url": "/kics/232/#na1"
  },
  {
   "id": "2_3-2_나2",
@@ -499,7 +499,7 @@
   "desc": "보험료부채_현금흐름 산출대상",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#na2"
+  "url": "/kics/232/#na2"
  },
  {
   "id": "2_3-2_나3",
@@ -512,7 +512,7 @@
   "desc": "보험료부채_계약의 경계",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#na3"
+  "url": "/kics/232/#na3"
  },
  {
   "id": "2_3-2_나4",
@@ -525,7 +525,7 @@
   "desc": "보험료부채_현금흐름 산출기간",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2#na4"
+  "url": "/kics/232/#na4"
  },
  {
   "id": "2_3-2_나5",
@@ -538,7 +538,7 @@
   "desc": "보험료부채_계리적 가정",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2#na5"
+  "url": "/kics/232/#na5"
  },
  {
   "id": "2_3-2_나6",
@@ -551,7 +551,7 @@
   "desc": "보험료부채_옵션 및 보증평가",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2#na6"
+  "url": "/kics/232/#na6"
  },
  {
   "id": "2_3-2_다",
@@ -564,7 +564,7 @@
   "desc": "준비금부채",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2-3.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2/#da"
+  "url": "/kics/232/#da"
  },
  {
   "id": "2_3-3_가",
@@ -577,7 +577,7 @@
   "desc": "산출방법(85th)",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-3.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-3/#ga"
+  "url": "/kics/233/#ga"
  },
  {
   "id": "2_3-4_가",
@@ -590,7 +590,7 @@
   "desc": "보험계약대출 평가방법",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#ga"
+  "url": "/kics/234/#ga"
  },
  {
   "id": "2_3-4_나",
@@ -603,7 +603,7 @@
   "desc": "관련 현금흐름",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#na"
+  "url": "/kics/234/#na"
  },
  {
   "id": "2_3-4_다",
@@ -616,7 +616,7 @@
   "desc": "문서화(최대값 초과시)",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#da"
+  "url": "/kics/234/#da"
  },
  {
   "id": "2_3-4_라",
@@ -629,7 +629,7 @@
   "desc": "평가 산출단위 상품군",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#la"
+  "url": "/kics/234/#la"
  },
  {
   "id": "2_3-4_마",
@@ -642,7 +642,7 @@
   "desc": "미래 가산이자율",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#ma"
+  "url": "/kics/234/#ma"
  },
  {
   "id": "2_3-4_바",
@@ -655,7 +655,7 @@
   "desc": "공동재보험 계약에 포함된 보험계약대출",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4/#ba"
+  "url": "/kics/234/#ba"
  },
  {
   "id": "2_3-5_가",
@@ -668,7 +668,7 @@
   "desc": "산출원칙 및 측정방법",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-5.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-5/#ga"
+  "url": "/kics/235/#ga"
  },
  {
   "id": "2_3-5_나",
@@ -681,7 +681,7 @@
   "desc": "보험료부채와 준비금부채 구분산출",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-5.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-5/#na"
+  "url": "/kics/235/#na"
  },
  {
   "id": "2_3-5_다",
@@ -694,7 +694,7 @@
   "desc": "손실조정 반영",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-5.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-5/#da"
+  "url": "/kics/235/#da"
  },
  {
   "id": "2_3-5_라",
@@ -707,7 +707,7 @@
   "desc": "장래 신규유입계약 불포함",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-5.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-5/#la"
+  "url": "/kics/235/#la"
  },
  {
   "id": "2_4-1_가",
@@ -720,7 +720,7 @@
   "desc": "적용범위",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-1.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-1/#ga"
+  "url": "/kics/241/#ga"
  },
  {
   "id": "2_4-1_나",
@@ -733,7 +733,7 @@
   "desc": "분류기준",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-1.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-1/#na"
+  "url": "/kics/241/#na"
  },
  {
   "id": "2_4-1_다",
@@ -746,7 +746,7 @@
   "desc": "산출단위",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-1.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-1/#da"
+  "url": "/kics/241/#da"
  },
  {
   "id": "2_4-2_가",
@@ -759,7 +759,7 @@
   "desc": "원칙",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-2.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-2/#ga"
+  "url": "/kics/242/#ga"
  },
  {
   "id": "2_4-2_나",
@@ -772,7 +772,7 @@
   "desc": "보험료부채",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-2.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-2/#na"
+  "url": "/kics/242/#na"
  },
  {
   "id": "2_4-2_다",
@@ -785,7 +785,7 @@
   "desc": "준비금부채",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-2.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-2/#da"
+  "url": "/kics/242/#da"
  },
  {
   "id": "2_4-2_라",
@@ -798,7 +798,7 @@
   "desc": "재보험계약의 보험위험전가 평가",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-2.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-2/#la"
+  "url": "/kics/242/#la"
  },
  {
   "id": "2_4-3_가",
@@ -811,7 +811,7 @@
   "desc": "산출방법(65th)",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-3.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-3/#ga"
+  "url": "/kics/243/#ga"
  },
  {
   "id": "2_4-4_가",
@@ -824,7 +824,7 @@
   "desc": "산출원칙 및 측정방법",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-4.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-4/#ga"
+  "url": "/kics/244/#ga"
  },
  {
   "id": "2_4-4_나",
@@ -837,7 +837,7 @@
   "desc": "손실조정 반영",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-4.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-4/#na"
+  "url": "/kics/244/#na"
  },
  {
   "id": "2_4-4_다",
@@ -850,7 +850,7 @@
   "desc": "원수보험계약과 별도산출, 장래신규유입계약 불포함",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-4.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-4/#da"
+  "url": "/kics/244/#da"
  },
  {
   "id": "2_5-1_가",
@@ -863,7 +863,7 @@
   "desc": "보험부채 할인율 정의",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-1.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-1/#ga"
+  "url": "/kics/251/#ga"
  },
  {
   "id": "2_5-1_나",
@@ -876,7 +876,7 @@
   "desc": "금리기간구조",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-1.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-1/#na"
+  "url": "/kics/251/#na"
  },
  {
   "id": "2_5-1_다",
@@ -889,7 +889,7 @@
   "desc": "통화별 할인율 적용",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-1.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-1/#da"
+  "url": "/kics/251/#da"
  },
  {
   "id": "2_5-2_가",
@@ -902,7 +902,7 @@
   "desc": "결정론적 시나리오",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-2.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-2/#ga"
+  "url": "/kics/252/#ga"
  },
  {
   "id": "2_5-2_나",
@@ -915,7 +915,7 @@
   "desc": "확률론적 시나리오",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-2.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-2/#na"
+  "url": "/kics/252/#na"
  },
  {
   "id": "2_5-3_가",
@@ -928,7 +928,7 @@
   "desc": "기본 무위험 금리기간구조",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-3.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-3/#ga"
+  "url": "/kics/253/#ga"
  },
  {
   "id": "2_5-3_나",
@@ -941,7 +941,7 @@
   "desc": "조정 무위험 금리기간구조",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-3.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-3/#na"
+  "url": "/kics/253/#na"
  },
  {
   "id": "2_5-3_다",
@@ -954,7 +954,7 @@
   "desc": "확률론적 시나리오",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-3.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-3/#da"
+  "url": "/kics/253/#da"
  },
  {
   "id": "2_5-4_가",
@@ -967,7 +967,7 @@
   "desc": "변동성 조정 정의",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-4.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-4/#ga"
+  "url": "/kics/254/#ga"
  },
  {
   "id": "2_5-4_나",
@@ -980,7 +980,7 @@
   "desc": "금리위험액 산출시 변동성 조정",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-4.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-4/#na"
+  "url": "/kics/254/#na"
  },
  {
   "id": "2_5-5_가",
@@ -993,7 +993,7 @@
   "desc": "자산의 현금흐름과 유사한 구조로 발생하는 부채의 현금흐름",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-5.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-5/#ga"
+  "url": "/kics/255/#ga"
  },
  {
   "id": "2_5-5_나",
@@ -1006,7 +1006,7 @@
   "desc": "산출 방법",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-5.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-5/#na"
+  "url": "/kics/255/#na"
  },
  {
   "id": "2_5-5_다",
@@ -1019,7 +1019,7 @@
   "desc": "매칭 조정 적용요건",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-5.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-5/#da"
+  "url": "/kics/255/#da"
  },
  {
   "id": "2_5-6_가",
@@ -1032,7 +1032,7 @@
   "desc": "결정론적 시나리오",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-6.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-6/#ga"
+  "url": "/kics/256/#ga"
  },
  {
   "id": "2_5-6_나",
@@ -1045,7 +1045,7 @@
   "desc": "확률론적 시나리오",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-6.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-6/#na"
+  "url": "/kics/256/#na"
  },
  {
   "id": "3_1_가",
@@ -1057,7 +1057,7 @@
   "desc": "지급여력금액 정의",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#ga"
+  "url": "/kics/310/#ga"
  },
  {
   "id": "3_1_나",
@@ -1069,7 +1069,7 @@
   "desc": "손실흡수성",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#na"
+  "url": "/kics/310/#na"
  },
  {
   "id": "3_1_다",
@@ -1081,7 +1081,7 @@
   "desc": "지급여력금액 가산하는 항목",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#da"
+  "url": "/kics/310/#da"
  },
  {
   "id": "3_1_라",
@@ -1093,7 +1093,7 @@
   "desc": "지급여력금액 차감하는 항목",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la"
+  "url": "/kics/310/#la"
  },
  {
   "id": "3_2_가",
@@ -1105,7 +1105,7 @@
   "desc": "계층분류 (기본자본, 보완자본)",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#ga"
+  "url": "/kics/320/#ga"
  },
  {
   "id": "3_2_나",
@@ -1117,7 +1117,7 @@
   "desc": "기본자본",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#na"
+  "url": "/kics/320/#na"
  },
  {
   "id": "3_2_다",
@@ -1129,7 +1129,7 @@
   "desc": "기본자본에서 보완자본으로 재분류 항목",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da"
+  "url": "/kics/320/#da"
  },
  {
   "id": "3_2_라",
@@ -1141,7 +1141,7 @@
   "desc": "보완자본",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#la"
+  "url": "/kics/320/#la"
  },
  {
   "id": "3_2_마",
@@ -1153,7 +1153,7 @@
   "desc": "보완자본 한도",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#ma"
+  "url": "/kics/320/#ma"
  },
  {
   "id": "3_3_가",
@@ -1165,7 +1165,7 @@
   "desc": "자본증권 구분(기본자본요건, 보완자본요건)",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#ga"
+  "url": "/kics/330/#ga"
  },
  {
   "id": "3_3_나",
@@ -1177,7 +1177,7 @@
   "desc": "기본자본요건",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#na"
+  "url": "/kics/330/#na"
  },
  {
   "id": "3_3_다",
@@ -1189,7 +1189,7 @@
   "desc": "보완자본요건",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#da"
+  "url": "/kics/330/#da"
  },
  {
   "id": "4_1-1_",
@@ -1200,7 +1200,7 @@
   "LEVEL3": "1-1. 측정기준",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-1.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-1/#"
+  "url": "/kics/411/#"
  },
  {
   "id": "4_1-2_가",
@@ -1213,7 +1213,7 @@
   "desc": "총요구자본",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-2.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-2/#ga"
+  "url": "/kics/412/#ga"
  },
  {
   "id": "4_1-2_나",
@@ -1226,7 +1226,7 @@
   "desc": "기본요구자본",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-2.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-2/#na"
+  "url": "/kics/412/#na"
  },
  {
   "id": "4_1-2_다",
@@ -1239,7 +1239,7 @@
   "desc": "법인세조정액",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-2.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-2/#da"
+  "url": "/kics/412/#da"
  },
  {
   "id": "4_1-2_라",
@@ -1252,7 +1252,7 @@
   "desc": "기타요구자본",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-2.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-2/#la"
+  "url": "/kics/412/#la"
  },
  {
   "id": "4_1-3_가",
@@ -1265,7 +1265,7 @@
   "desc": "충격시나리오 방식",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-3.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-3/#ga"
+  "url": "/kics/413/#ga"
  },
  {
   "id": "4_1-3_나",
@@ -1278,7 +1278,7 @@
   "desc": "위험계수 방식",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-3.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-3/#na"
+  "url": "/kics/413/#na"
  },
  {
   "id": "4_1-4",
@@ -1291,7 +1291,7 @@
   "desc": "편입자산분해",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4/#ga"
+  "url": "/kics/414/#ga"
  },
  {
   "id": "4_1-4_가",
@@ -1304,7 +1304,7 @@
   "desc": "Look-through 방식 (간접투자기구의 실질적인 리스크측정)",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4/#ga"
+  "url": "/kics/414/#ga"
  },
  {
   "id": "4_1-4_나",
@@ -1317,7 +1317,7 @@
   "desc": "분해가능 자산(부채) 분류",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4/#na"
+  "url": "/kics/414/#na"
  },
  {
   "id": "4_1-4_다",
@@ -1330,7 +1330,7 @@
   "desc": "편입자산분해 적용방식 (전체 편입자산분해, 부분 편입자산분해, 자산재구성)",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4/#da"
+  "url": "/kics/414/#da"
  },
  {
   "id": "4_1-5_가",
@@ -1343,7 +1343,7 @@
   "desc": "위험경감효과반영 (운영위험액 적용 제외)",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#ga"
+  "url": "/kics/415/#ga"
  },
  {
   "id": "4_1-5_나",
@@ -1356,7 +1356,7 @@
   "desc": "위험경감기법(재보험, 파생상품, 신용위험경감기법)",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#na"
+  "url": "/kics/415/#na"
  },
  {
   "id": "4_1-5_다",
@@ -1369,7 +1369,7 @@
   "desc": "위험경감효과 적용방식",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#da"
+  "url": "/kics/415/#da"
  },
  {
   "id": "4_1-5_라",
@@ -1382,7 +1382,7 @@
   "desc": "위험경감 인정조건",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#la"
+  "url": "/kics/415/#la"
  },
  {
   "id": "4_1-5_마",
@@ -1395,7 +1395,7 @@
   "desc": "시장위험액의 위험경감 효과 인정조건",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#ma"
+  "url": "/kics/415/#ma"
  },
  {
   "id": "4_1-5_바",
@@ -1408,7 +1408,7 @@
   "desc": "잔존만기별 인정비율",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#ba"
+  "url": "/kics/415/#ba"
  },
  {
   "id": "4_1-5_사",
@@ -1421,7 +1421,7 @@
   "desc": "신용위험액 위험경감기법",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#sa"
+  "url": "/kics/415/#sa"
  },
  {
   "id": "4_1-5_아",
@@ -1434,7 +1434,7 @@
   "desc": "편입자산분해 방식 적용 시 위험경감효과 인정조건",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5/#aa"
+  "url": "/kics/415/#aa"
  },
  {
   "id": "4_1-6_가",
@@ -1447,7 +1447,7 @@
   "desc": "간편법 요구자본 측정",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#ga"
+  "url": "/kics/416/#ga"
  },
  {
   "id": "4_1-6_나",
@@ -1460,7 +1460,7 @@
   "desc": "간편법 적용대상 및 충족요건 적용방식",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#na"
+  "url": "/kics/416/#na"
  },
  {
   "id": "4_1-6_다",
@@ -1473,7 +1473,7 @@
   "desc": "비례성원칙 충족여부 입증 및 보고",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#da"
+  "url": "/kics/416/#da"
  },
  {
   "id": "4_1-6_라",
@@ -1486,7 +1486,7 @@
   "desc": "간편법 적용 현황관리",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#la"
+  "url": "/kics/416/#la"
  },
  {
   "id": "4_1-6_마",
@@ -1499,7 +1499,7 @@
   "desc": "간편법 적용 허용조건",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#ma"
+  "url": "/kics/416/#ma"
  },
  {
   "id": "4_1-6_바",
@@ -1512,7 +1512,7 @@
   "desc": "감독원장의 간편법 사용중단 통보",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#ba"
+  "url": "/kics/416/#ba"
  },
  {
   "id": "4_1-6_사",
@@ -1525,7 +1525,7 @@
   "desc": "간편법 충족 기준",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#sa"
+  "url": "/kics/416/#sa"
  },
  {
   "id": "4_1-6_아",
@@ -1538,7 +1538,7 @@
   "desc": "(예외) 기본법 적용 평가 대상",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6/#aa"
+  "url": "/kics/416/#aa"
  },
  {
   "id": "4_1-7_가",
@@ -1551,7 +1551,7 @@
   "desc": "적격 인프라 투자 사업의 정의",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-7.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-7/#ga"
+  "url": "/kics/417/#ga"
  },
  {
   "id": "4_1-8_가",
@@ -1564,7 +1564,7 @@
   "desc": "종속회사 및 관계회사 요구자본 산출 기준",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-8.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-8/#ga"
+  "url": "/kics/418/#ga"
  },
  {
   "id": "4_2-1_가",
@@ -1577,7 +1577,7 @@
   "desc": "측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1/#ga"
+  "url": "/kics/421/#ga"
  },
  {
   "id": "4_2-1_나",
@@ -1590,7 +1590,7 @@
   "desc": "산출방법",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1/#na"
+  "url": "/kics/421/#na"
  },
  {
   "id": "4_2-1_다",
@@ -1603,7 +1603,7 @@
   "desc": "측정방식",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1/#da"
+  "url": "/kics/421/#da"
  },
  {
   "id": "4_2-1_라",
@@ -1616,7 +1616,7 @@
   "desc": "평가단위",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1/#la"
+  "url": "/kics/421/#la"
  },
  {
   "id": "4_2-1_마",
@@ -1629,7 +1629,7 @@
   "desc": "상품그룹기준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1/#ma"
+  "url": "/kics/421/#ma"
  },
  {
   "id": "4_2-2_가",
@@ -1642,7 +1642,7 @@
   "desc": "사망위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-2.mdx",
-  "url": "/kics/04-scr/02-life/4-2-2/#ga"
+  "url": "/kics/422/#ga"
  },
  {
   "id": "4_2-2_나",
@@ -1655,7 +1655,7 @@
   "desc": "사망위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-2.mdx",
-  "url": "/kics/04-scr/02-life/4-2-2/#na"
+  "url": "/kics/422/#na"
  },
  {
   "id": "4_2-2_다",
@@ -1668,7 +1668,7 @@
   "desc": "사망위험액 위험마진",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-2.mdx",
-  "url": "/kics/04-scr/02-life/4-2-2/#da"
+  "url": "/kics/422/#da"
  },
  {
   "id": "4_2-3_가",
@@ -1681,7 +1681,7 @@
   "desc": "장수위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-3.mdx",
-  "url": "/kics/04-scr/02-life/4-2-3/#ga"
+  "url": "/kics/423/#ga"
  },
  {
   "id": "4_2-3_나",
@@ -1694,7 +1694,7 @@
   "desc": "장수위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-3.mdx",
-  "url": "/kics/04-scr/02-life/4-2-3/#na"
+  "url": "/kics/423/#na"
  },
  {
   "id": "4_2-4_가",
@@ -1707,7 +1707,7 @@
   "desc": "장해·질병위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-4.mdx",
-  "url": "/kics/04-scr/02-life/4-2-4/#ga"
+  "url": "/kics/424/#ga"
  },
  {
   "id": "4_2-4_나",
@@ -1720,7 +1720,7 @@
   "desc": "장해·질병위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-4.mdx",
-  "url": "/kics/04-scr/02-life/4-2-4/#na"
+  "url": "/kics/424/#na"
  },
  {
   "id": "4_2-5_가",
@@ -1733,7 +1733,7 @@
   "desc": "장기재물·기타위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-5.mdx",
-  "url": "/kics/04-scr/02-life/4-2-5/#ga"
+  "url": "/kics/425/#ga"
  },
  {
   "id": "4_2-5_나",
@@ -1746,7 +1746,7 @@
   "desc": "장기재물·기타위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-5.mdx",
-  "url": "/kics/04-scr/02-life/4-2-5/#na"
+  "url": "/kics/425/#na"
  },
  {
   "id": "4_2-6_가",
@@ -1759,7 +1759,7 @@
   "desc": "해지위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-6.mdx",
-  "url": "/kics/04-scr/02-life/4-2-6/#ga"
+  "url": "/kics/426/#ga"
  },
  {
   "id": "4_2-6_나",
@@ -1772,7 +1772,7 @@
   "desc": "해지위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-6.mdx",
-  "url": "/kics/04-scr/02-life/4-2-6/#na"
+  "url": "/kics/426/#na"
  },
  {
   "id": "4_2-7_가",
@@ -1785,7 +1785,7 @@
   "desc": "사업비위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-7.mdx",
-  "url": "/kics/04-scr/02-life/4-2-7/#ga"
+  "url": "/kics/427/#ga"
  },
  {
   "id": "4_2-7_나",
@@ -1798,7 +1798,7 @@
   "desc": "사업비위험액 충격수준",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-7.mdx",
-  "url": "/kics/04-scr/02-life/4-2-7/#na"
+  "url": "/kics/427/#na"
  },
  {
   "id": "4_2-8_가",
@@ -1811,7 +1811,7 @@
   "desc": "대재해위험액 측정대상",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-8.mdx",
-  "url": "/kics/04-scr/02-life/4-2-8/#ga"
+  "url": "/kics/428/#ga"
  },
  {
   "id": "4_2-8_나",
@@ -1824,7 +1824,7 @@
   "desc": "대재해위험액 측정방법",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-8.mdx",
-  "url": "/kics/04-scr/02-life/4-2-8/#na"
+  "url": "/kics/428/#na"
  },
  {
   "id": "4_3-1_가",
@@ -1837,7 +1837,7 @@
   "desc": "측정대상",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-1.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-1/#ga"
+  "url": "/kics/431/#ga"
  },
  {
   "id": "4_3-1_나",
@@ -1850,7 +1850,7 @@
   "desc": "산출방법",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-1.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-1/#na"
+  "url": "/kics/431/#na"
  },
  {
   "id": "4_3-1_다",
@@ -1863,7 +1863,7 @@
   "desc": "측정방식",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-1.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-1/#da"
+  "url": "/kics/431/#da"
  },
  {
   "id": "4_3-2_가",
@@ -1876,7 +1876,7 @@
   "desc": "산출방법",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#ga"
+  "url": "/kics/432/#ga"
  },
  {
   "id": "4_3-2_나",
@@ -1889,7 +1889,7 @@
   "desc": "하위위험",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#na"
+  "url": "/kics/432/#na"
  },
  {
   "id": "4_3-2_다",
@@ -1902,7 +1902,7 @@
   "desc": "보장단위 및 보장그룹",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#da"
+  "url": "/kics/432/#da"
  },
  {
   "id": "4_3-2_라",
@@ -1915,7 +1915,7 @@
   "desc": "지역",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#la"
+  "url": "/kics/432/#la"
  },
  {
   "id": "4_3-2_마",
@@ -1928,7 +1928,7 @@
   "desc": "보험가격위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#ma"
+  "url": "/kics/432/#ma"
  },
  {
   "id": "4_3-2_바",
@@ -1941,7 +1941,7 @@
   "desc": "준비금위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#ba"
+  "url": "/kics/432/#ba"
  },
  {
   "id": "4_3-2_사",
@@ -1954,7 +1954,7 @@
   "desc": "보유리스크율(비례_연동) 산출방법",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2/#sa"
+  "url": "/kics/432/#sa"
  },
  {
   "id": "4_3-3_가",
@@ -1967,7 +1967,7 @@
   "desc": "측정방법",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#ga"
+  "url": "/kics/433/#ga"
  },
  {
   "id": "4_3-3_나",
@@ -1980,7 +1980,7 @@
   "desc": "산출대상",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#na"
+  "url": "/kics/433/#na"
  },
  {
   "id": "4_3-3_다",
@@ -1993,7 +1993,7 @@
   "desc": "자연재해위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#da"
+  "url": "/kics/433/#da"
  },
  {
   "id": "4_3-3_라",
@@ -2006,7 +2006,7 @@
   "desc": "대형사고위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#la"
+  "url": "/kics/433/#la"
  },
  {
   "id": "4_3-3_마",
@@ -2019,7 +2019,7 @@
   "desc": "대형보증위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#ma"
+  "url": "/kics/433/#ma"
  },
  {
   "id": "4_3-3_바",
@@ -2032,7 +2032,7 @@
   "desc": "보유리스크율(대재해) 산출방법",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3/#ba"
+  "url": "/kics/433/#ba"
  },
  {
   "id": "4_4-1_가",
@@ -2045,7 +2045,7 @@
   "desc": "측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-3-3/#ga"
+  "url": "/kics/441/#ga"
  },
  {
   "id": "4_4-1_나",
@@ -2058,7 +2058,7 @@
   "desc": "산출방법",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-1.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-1/#na"
+  "url": "/kics/441/#na"
  },
  {
   "id": "4_4-1_다",
@@ -2071,7 +2071,7 @@
   "desc": "측정방식",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-1.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-1/#da"
+  "url": "/kics/441/#da"
  },
  {
   "id": "4_4-2_가",
@@ -2084,7 +2084,7 @@
   "desc": "금리위험액 측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-2.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-2/#ga"
+  "url": "/kics/442/#ga"
  },
  {
   "id": "4_4-2_나",
@@ -2097,7 +2097,7 @@
   "desc": "금리위험액 측정방법",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-2.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-2/#na"
+  "url": "/kics/442/#na"
  },
  {
   "id": "4_4-3_가",
@@ -2110,7 +2110,7 @@
   "desc": "주식위험액 측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-3/#ga"
+  "url": "/kics/443/#ga"
  },
  {
   "id": "4_4-3_나",
@@ -2123,7 +2123,7 @@
   "desc": "주식위험액 주식유형",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-3/#na"
+  "url": "/kics/443/#na"
  },
  {
   "id": "4_4-3_다",
@@ -2136,7 +2136,7 @@
   "desc": "주식위험액 산출방법",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-3/#da"
+  "url": "/kics/443/#da"
  },
  {
   "id": "4_4-4_가",
@@ -2149,7 +2149,7 @@
   "desc": "부동산위험액 측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-4.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-4/#ga"
+  "url": "/kics/444/#ga"
  },
  {
   "id": "4_4-4_나",
@@ -2162,7 +2162,7 @@
   "desc": "부동산위험액 익스포져",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-4.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-4/#na"
+  "url": "/kics/444/#na"
  },
  {
   "id": "4_4-4_다",
@@ -2175,7 +2175,7 @@
   "desc": "부동산위험액 충격수준",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-4.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-4/#da"
+  "url": "/kics/444/#da"
  },
  {
   "id": "4_4-5_가",
@@ -2188,7 +2188,7 @@
   "desc": "외환위험액 측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-5.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-5/#ga"
+  "url": "/kics/445/#ga"
  },
  {
   "id": "4_4-5_나",
@@ -2201,7 +2201,7 @@
   "desc": "외환위험액 산출방법",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-5.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-5/#na"
+  "url": "/kics/445/#na"
  },
  {
   "id": "4_4-6_가",
@@ -2214,7 +2214,7 @@
   "desc": "자산집중위험액 측정대상",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#ga"
+  "url": "/kics/446/#ga"
  },
  {
   "id": "4_4-6_나",
@@ -2227,7 +2227,7 @@
   "desc": "자산집중위험액 하위위험",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#na"
+  "url": "/kics/446/#na"
  },
  {
   "id": "4_4-6_다",
@@ -2240,7 +2240,7 @@
   "desc": "자산집중위험액 거래상대방의 정의",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#da"
+  "url": "/kics/446/#da"
  },
  {
   "id": "4_4-6_라",
@@ -2253,7 +2253,7 @@
   "desc": "자산집중위험액 거래상대방 집중위험 익스포져",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#la"
+  "url": "/kics/446/#la"
  },
  {
   "id": "4_4-6_마",
@@ -2266,7 +2266,7 @@
   "desc": "자산집중위험액 신용등급 적용기준",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#ma"
+  "url": "/kics/446/#ma"
  },
  {
   "id": "4_4-6_바",
@@ -2279,7 +2279,7 @@
   "desc": "자산집중위험액 부동산집중위험 익스포져",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#ba"
+  "url": "/kics/446/#ba"
  },
  {
   "id": "4_4-6_사",
@@ -2292,7 +2292,7 @@
   "desc": "자산집중위험액 연결기준",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#sa"
+  "url": "/kics/446/#sa"
  },
  {
   "id": "4_4-6_아",
@@ -2305,7 +2305,7 @@
   "desc": "자산집중위험액 요구자본 산출",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6/#aa"
+  "url": "/kics/446/#aa"
  },
  {
   "id": "4_5-1_가",
@@ -2318,7 +2318,7 @@
   "desc": "측정대상",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-1.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-1/#ga"
+  "url": "/kics/451/#ga"
  },
  {
   "id": "4_5-1_나",
@@ -2331,7 +2331,7 @@
   "desc": "B/S(난내)자산 분류",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-1.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-1/#na"
+  "url": "/kics/451/#na"
  },
  {
   "id": "4_5-1_다",
@@ -2344,7 +2344,7 @@
   "desc": "난외자산 분류",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-1.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-1/#da"
+  "url": "/kics/451/#da"
  },
  {
   "id": "4_5-2_가",
@@ -2357,7 +2357,7 @@
   "desc": "위험계수법 산출",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-2.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-2/#ga"
+  "url": "/kics/452/#ga"
  },
  {
   "id": "4_5-2_나",
@@ -2370,7 +2370,7 @@
   "desc": "K-ICS신용등급 적용기준",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-2.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-2/#na"
+  "url": "/kics/452/#na"
  },
  {
   "id": "4_5-2_다",
@@ -2383,7 +2383,7 @@
   "desc": "유효만기 산출기준",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-2.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-2/#da"
+  "url": "/kics/452/#da"
  },
  {
   "id": "4_5-2_라",
@@ -2396,7 +2396,7 @@
   "desc": "위험계수 산출기준",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-2.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-2/#la"
+  "url": "/kics/452/#la"
  },
  {
   "id": "4_5-3_가",
@@ -2409,7 +2409,7 @@
   "desc": "신용위험액 위험경감",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-3.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-3/#ga"
+  "url": "/kics/453/#ga"
  },
  {
   "id": "4_5-3_나",
@@ -2422,7 +2422,7 @@
   "desc": "적격금융자산담보에 의해 위험경감",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-3.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-3/#na"
+  "url": "/kics/453/#na"
  },
  {
   "id": "4_5-3_다",
@@ -2435,7 +2435,7 @@
   "desc": "적격 보증 및 신용파생상품을 통한 위험경감",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-3.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-3/#da"
+  "url": "/kics/453/#da"
  },
  {
   "id": "4_5-3_라",
@@ -2448,7 +2448,7 @@
   "desc": "거래상대방의 금전채무 상계 조건",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-3.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-3/#la"
+  "url": "/kics/453/#la"
  },
  {
   "id": "4_6-1_가",
@@ -2461,7 +2461,7 @@
   "desc": "측정대상",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-1.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-1/#ga"
+  "url": "/kics/461/#ga"
  },
  {
   "id": "4_6-1_나",
@@ -2474,7 +2474,7 @@
   "desc": "익스포져 구분",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-1.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-1/#na"
+  "url": "/kics/461/#na"
  },
  {
   "id": "4_6-2_가",
@@ -2487,7 +2487,7 @@
   "desc": "위험계수법",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-2.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-2/#ga"
+  "url": "/kics/462/#ga"
  },
  {
   "id": "4_6-2_나",
@@ -2500,7 +2500,7 @@
   "desc": "일반운영위험액 산출방법",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-2.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-2/#na"
+  "url": "/kics/462/#na"
  },
  {
   "id": "4_6-2_다",
@@ -2513,7 +2513,7 @@
   "desc": "기초가정위험액",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-2.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-2/#da"
+  "url": "/kics/462/#da"
  },
  {
   "id": "4_7_가",
@@ -2525,7 +2525,7 @@
   "desc": "이연법인세 손실흡수를 반영한 요구자본 조정",
   "path": "kics/04-scr",
   "FILE": "07-tax.mdx",
-  "url": "/kics/04-scr/07-tax/#ga"
+  "url": "/kics/470/#ga"
  },
  {
   "id": "4_7_나",
@@ -2537,7 +2537,7 @@
   "desc": "이연법인세 정의 및 법인세효과 산출방법",
   "path": "kics/04-scr",
   "FILE": "07-tax.mdx",
-  "url": "/kics/04-scr/07-tax/#na"
+  "url": "/kics/470/#na"
  },
  {
   "id": "5_1_가",
@@ -2549,7 +2549,7 @@
   "desc": "문서화 체계",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc/#ga"
+  "url": "/kics/500/#ga"
  },
  {
   "id": "5_1_나",
@@ -2561,7 +2561,7 @@
   "desc": "1단계",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc/#na"
+  "url": "/kics/500/#na"
  },
  {
   "id": "5_1_다",
@@ -2573,7 +2573,7 @@
   "desc": "2단계",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc/#da"
+  "url": "/kics/500/#da"
  },
  {
   "id": "5_1_라",
@@ -2585,7 +2585,7 @@
   "desc": "3단계",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc/#la"
+  "url": "/kics/500/#la"
  },
  {
   "id": "5_1_마",
@@ -2597,7 +2597,7 @@
   "desc": "4단계",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc/#ma"
+  "url": "/kics/500/#ma"
  },
  {
   "id": "6_1_가",
@@ -2609,7 +2609,7 @@
   "desc": "공통적용 경과조치",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#ga"
+  "url": "/kics/610/#ga"
  },
  {
   "id": "6_1_나",
@@ -2621,7 +2621,7 @@
   "desc": "선택적용 경과조치",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#na"
+  "url": "/kics/610/#na"
  },
  {
   "id": "6_1_다",
@@ -2633,7 +2633,7 @@
   "desc": "적용요건",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#da"
+  "url": "/kics/610/#da"
  },
  {
   "id": "6_1_라",
@@ -2645,7 +2645,7 @@
   "desc": "기타사항",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#la"
+  "url": "/kics/610/#la"
  },
  {
   "id": "6_1_마",
@@ -2657,7 +2657,7 @@
   "desc": "그룹기준 경과조치",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#ma"
+  "url": "/kics/610/#ma"
  },
  {
   "id": "6_2_가",
@@ -2669,7 +2669,7 @@
   "desc": "사전신고",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#ga"
+  "url": "/kics/620/#ga"
  },
  {
   "id": "6_2_나",
@@ -2681,7 +2681,7 @@
   "desc": "신고수리",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#na"
+  "url": "/kics/620/#na"
  },
  {
   "id": "6_2_다",
@@ -2693,7 +2693,7 @@
   "desc": "적용에 관한 예외규정",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#da"
+  "url": "/kics/620/#da"
  },
  {
   "id": "6_2_라",
@@ -2705,7 +2705,7 @@
   "desc": "경과조치 시행 후 중도신고",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#la"
+  "url": "/kics/620/#la"
  },
  {
   "id": "6_2_마",
@@ -2717,7 +2717,7 @@
   "desc": "사후관리",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#ma"
+  "url": "/kics/620/#ma"
  },
  {
   "id": "6_2_바",
@@ -2729,7 +2729,7 @@
   "desc": "경과조치 기간의 단축",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#ba"
+  "url": "/kics/620/#ba"
  },
  {
   "id": "6_2_사",
@@ -2741,7 +2741,7 @@
   "desc": "조기중단",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#sa"
+  "url": "/kics/620/#sa"
  },
  {
   "id": "6_2_아",
@@ -2753,7 +2753,7 @@
   "desc": "중단통보",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans/#aa"
+  "url": "/kics/620/#aa"
  },
  {
   "id": "1_1",
@@ -2803,7 +2803,7 @@
   "LEVEL2": "제1장 총 칙",
   "path": "kics/02-valuation",
   "FILE": "2-1-overview.mdx",
-  "url": "/kics/02-valuation/2-1-overview"
+  "url": "/kics/210"
  },
  {
   "id": "2_2-1",
@@ -2815,7 +2815,7 @@
   "desc": "일반원칙",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-1.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-1"
+  "url": "/kics/221"
  },
  {
   "id": "2_2-2",
@@ -2827,7 +2827,7 @@
   "desc": "할인율산출기준",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-2.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-2"
+  "url": "/kics/222"
  },
  {
   "id": "2_2-3",
@@ -2839,7 +2839,7 @@
   "desc": "자산평가기준",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-3.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-3"
+  "url": "/kics/223"
  },
  {
   "id": "2_2-4",
@@ -2851,7 +2851,7 @@
   "desc": "기타부채평가기준",
   "path": "kics/02-valuation/2-2-asset",
   "FILE": "2-2-4.mdx",
-  "url": "/kics/02-valuation/2-2-asset/2-2-4"
+  "url": "/kics/224"
  },
  {
   "id": "2_3-1",
@@ -2863,7 +2863,7 @@
   "desc": "일반원칙",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-1.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-1"
+  "url": "/kics/231"
  },
  {
   "id": "2_3-2",
@@ -2875,7 +2875,7 @@
   "desc": "현행추정부채",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-2.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-2"
+  "url": "/kics/232"
  },
  {
   "id": "2_3-3",
@@ -2887,7 +2887,7 @@
   "desc": "위험마진",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-3.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-3"
+  "url": "/kics/233"
  },
  {
   "id": "2_3-4",
@@ -2899,7 +2899,7 @@
   "desc": "보험계약대출",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-4.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-4"
+  "url": "/kics/234"
  },
  {
   "id": "2_3-5",
@@ -2911,7 +2911,7 @@
   "desc": "재보험자산",
   "path": "kics/02-valuation/2-3-life",
   "FILE": "2-3-5.mdx",
-  "url": "/kics/02-valuation/2-3-life/2-3-5"
+  "url": "/kics/235"
  },
  {
   "id": "2_4-1",
@@ -2923,7 +2923,7 @@
   "desc": "일반원칙",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-1.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-1"
+  "url": "/kics/241"
  },
  {
   "id": "2_4-2",
@@ -2935,7 +2935,7 @@
   "desc": "현행추정부채",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-2.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-2"
+  "url": "/kics/242"
  },
  {
   "id": "2_4-3",
@@ -2947,7 +2947,7 @@
   "desc": "위험마진",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-3.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-3"
+  "url": "/kics/243"
  },
  {
   "id": "2_4-4",
@@ -2959,7 +2959,7 @@
   "desc": "재보험자산",
   "path": "kics/02-valuation/2-4-pnc",
   "FILE": "2-4-4.mdx",
-  "url": "/kics/02-valuation/2-4-pnc/2-4-4"
+  "url": "/kics/244"
  },
  {
   "id": "2_5-1",
@@ -2971,7 +2971,7 @@
   "desc": "일반원칙",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-1.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-1"
+  "url": "/kics/251"
  },
  {
   "id": "2_5-2",
@@ -2983,7 +2983,7 @@
   "desc": "할인율산출구조",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-2.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-2"
+  "url": "/kics/252"
  },
  {
   "id": "2_5-3",
@@ -2995,7 +2995,7 @@
   "desc": "원화할인율산출",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-3.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-3"
+  "url": "/kics/253"
  },
  {
   "id": "2_5-4",
@@ -3007,7 +3007,7 @@
   "desc": "변동성 조정(Volatility Adjustment)",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-4.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-4"
+  "url": "/kics/254"
  },
  {
   "id": "2_5-5",
@@ -3019,7 +3019,7 @@
   "desc": "매칭 조정(Matching Adjustment)",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-5.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-5"
+  "url": "/kics/255"
  },
  {
   "id": "2_5-6",
@@ -3031,7 +3031,7 @@
   "desc": "해외통화의 할인율 산출",
   "path": "kics/02-valuation/2-5-dcnt",
   "FILE": "2-5-6.mdx",
-  "url": "/kics/02-valuation/2-5-dcnt/2-5-6"
+  "url": "/kics/256"
  },
  {
   "id": "3_1",
@@ -3042,7 +3042,7 @@
   "desc": "개 요",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1"
+  "url": "/kics/310"
  },
  {
   "id": "3_2",
@@ -3053,7 +3053,7 @@
   "desc": "계층화",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2"
+  "url": "/kics/320"
  },
  {
   "id": "3_3",
@@ -3064,7 +3064,7 @@
   "desc": "자본증권의 계층분류기준",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3"
+  "url": "/kics/330"
  },
  {
   "id": "4_1-1",
@@ -3076,7 +3076,7 @@
   "desc": "측정기준",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-1.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-1"
+  "url": "/kics/411"
  },
  {
   "id": "4_1-2",
@@ -3088,7 +3088,7 @@
   "desc": "산출구조",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-2.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-2"
+  "url": "/kics/412"
  },
  {
   "id": "4_1-3",
@@ -3100,7 +3100,7 @@
   "desc": "측정방식",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-3.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-3"
+  "url": "/kics/413"
  },
  {
   "id": "4_1-4",
@@ -3112,19 +3112,7 @@
   "desc": "편입자산분해",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4"
- },
- {
-  "id": "4_1-4",
-  "title": "Ⅳ.1-4.",
-  "name": "1-4.",
-  "LEVEL1": "Ⅳ. 지급여력기준금액 산출",
-  "LEVEL2": "제1장 총 칙",
-  "LEVEL3": "1-4. 편입자산분해",
-  "desc": "편입자산분해",
-  "path": "kics/04-scr/01-intro",
-  "FILE": "4-1-4.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-4"
+  "url": "/kics/414"
  },
  {
   "id": "4_1-5",
@@ -3136,7 +3124,7 @@
   "desc": "위험경감기법",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-5.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-5"
+  "url": "/kics/415"
  },
  {
   "id": "4_1-6",
@@ -3148,7 +3136,7 @@
   "desc": "비례성원칙(Principle of Proportionality)",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-6.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-6"
+  "url": "/kics/416"
  },
  {
   "id": "4_1-7",
@@ -3160,7 +3148,7 @@
   "desc": "적격 인프라투자 조건",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-7.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-7"
+  "url": "/kics/417"
  },
  {
   "id": "4_1-8",
@@ -3172,7 +3160,7 @@
   "desc": "종속회사 및 관계회사의 요구자본 산출",
   "path": "kics/04-scr/01-intro",
   "FILE": "4-1-8.mdx",
-  "url": "/kics/04-scr/01-intro/4-1-8"
+  "url": "/kics/418"
  },
  {
   "id": "4_2-1",
@@ -3184,7 +3172,7 @@
   "desc": "일반원칙",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-1.mdx",
-  "url": "/kics/04-scr/02-life/4-2-1"
+  "url": "/kics/421"
  },
  {
   "id": "4_2-2",
@@ -3196,7 +3184,7 @@
   "desc": "사망위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-2.mdx",
-  "url": "/kics/04-scr/02-life/4-2-2"
+  "url": "/kics/422"
  },
  {
   "id": "4_2-3",
@@ -3208,7 +3196,7 @@
   "desc": "장수위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-3.mdx",
-  "url": "/kics/04-scr/02-life/4-2-3"
+  "url": "/kics/423"
  },
  {
   "id": "4_2-4",
@@ -3220,7 +3208,7 @@
   "desc": "장해·질병위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-4.mdx",
-  "url": "/kics/04-scr/02-life/4-2-4"
+  "url": "/kics/424"
  },
  {
   "id": "4_2-5",
@@ -3232,7 +3220,7 @@
   "desc": "장기재물·기타위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-5.mdx",
-  "url": "/kics/04-scr/02-life/4-2-5"
+  "url": "/kics/425"
  },
  {
   "id": "4_2-6",
@@ -3244,7 +3232,7 @@
   "desc": "해지위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-6.mdx",
-  "url": "/kics/04-scr/02-life/4-2-6"
+  "url": "/kics/426"
  },
  {
   "id": "4_2-7",
@@ -3256,7 +3244,7 @@
   "desc": "사업비위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-7.mdx",
-  "url": "/kics/04-scr/02-life/4-2-7"
+  "url": "/kics/427"
  },
  {
   "id": "4_2-8",
@@ -3268,7 +3256,7 @@
   "desc": "대재해위험액",
   "path": "kics/04-scr/02-life",
   "FILE": "4-2-8.mdx",
-  "url": "/kics/04-scr/02-life/4-2-8"
+  "url": "/kics/428"
  },
  {
   "id": "4_3-1",
@@ -3280,7 +3268,7 @@
   "desc": "일반원칙",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-1.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-1"
+  "url": "/kics/431"
  },
  {
   "id": "4_3-2",
@@ -3292,7 +3280,7 @@
   "desc": "보험가격·준비금위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-2.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-2"
+  "url": "/kics/432"
  },
  {
   "id": "4_3-3",
@@ -3304,19 +3292,7 @@
   "desc": "대재해위험액",
   "path": "kics/04-scr/03-pnc",
   "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/03-pnc/4-3-3"
- },
- {
-  "id": "4_4-1",
-  "title": "Ⅳ.4-1.",
-  "name": "4-1.",
-  "LEVEL1": "Ⅳ. 지급여력기준금액 산출",
-  "LEVEL2": "제4장 시장위험액",
-  "LEVEL3": "4-1. 일반원칙",
-  "desc": "일반원칙",
-  "path": "kics/04-scr/04-mkt",
-  "FILE": "4-3-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-3-3"
+  "url": "/kics/433"
  },
  {
   "id": "4_4-1",
@@ -3328,7 +3304,7 @@
   "desc": "일반원칙",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-1.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-1"
+  "url": "/kics/441"
  },
  {
   "id": "4_4-2",
@@ -3340,7 +3316,7 @@
   "desc": "금리위험액",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-2.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-2"
+  "url": "/kics/442"
  },
  {
   "id": "4_4-3",
@@ -3352,7 +3328,7 @@
   "desc": "주식위험액",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-3.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-3"
+  "url": "/kics/443"
  },
  {
   "id": "4_4-4",
@@ -3364,7 +3340,7 @@
   "desc": "부동산위험액",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-4.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-4"
+  "url": "/kics/444"
  },
  {
   "id": "4_4-5",
@@ -3376,7 +3352,7 @@
   "desc": "외환위험액",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-5.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-5"
+  "url": "/kics/445"
  },
  {
   "id": "4_4-6",
@@ -3388,7 +3364,7 @@
   "desc": "자산집중위험액",
   "path": "kics/04-scr/04-mkt",
   "FILE": "4-4-6.mdx",
-  "url": "/kics/04-scr/04-mkt/4-4-6"
+  "url": "/kics/446"
  },
  {
   "id": "4_5-1",
@@ -3400,7 +3376,7 @@
   "desc": "익스포져산출기준",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-1.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-1"
+  "url": "/kics/451"
  },
  {
   "id": "4_5-2",
@@ -3412,7 +3388,7 @@
   "desc": "신용위험액산출기준",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-2.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-2"
+  "url": "/kics/452"
  },
  {
   "id": "4_5-3",
@@ -3424,7 +3400,7 @@
   "desc": "신용위험액위험경감기법",
   "path": "kics/04-scr/05-crd",
   "FILE": "4-5-3.mdx",
-  "url": "/kics/04-scr/05-crd/4-5-3"
+  "url": "/kics/453"
  },
  {
   "id": "4_6-1",
@@ -3436,7 +3412,7 @@
   "desc": "익스포져산출기준",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-1.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-1"
+  "url": "/kics/461"
  },
  {
   "id": "4_6-2",
@@ -3448,7 +3424,7 @@
   "desc": "운영위험액산출기준",
   "path": "kics/04-scr/06-oper",
   "FILE": "4-6-2.mdx",
-  "url": "/kics/04-scr/06-oper/4-6-2"
+  "url": "/kics/462"
  },
  {
   "id": "4_7",
@@ -3458,7 +3434,7 @@
   "LEVEL2": "제7장 요구자본에 대한 법인세효과",
   "path": "kics/04-scr",
   "FILE": "07-tax.mdx",
-  "url": "/kics/04-scr/07-tax"
+  "url": "/kics/470"
  },
  {
   "id": "5_1",
@@ -3468,7 +3444,7 @@
   "LEVEL2": "1. 개 요",
   "path": "kics",
   "FILE": "05-doc.mdx",
-  "url": "/kics/05-doc"
+  "url": "/kics/500"
  },
  {
   "id": "6_1",
@@ -3478,7 +3454,7 @@
   "LEVEL2": "1. 경과조치 모델",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans"
+  "url": "/kics/610"
  },
  {
   "id": "6_2",
@@ -3488,7 +3464,7 @@
   "LEVEL2": "2. 경과조치 적용 및 종료",
   "path": "kics",
   "FILE": "06-trans.mdx",
-  "url": "/kics/06-trans"
+  "url": "/kics/620"
  },
  {
   "id": "3_1_나1",
@@ -3501,7 +3477,7 @@
   "desc": "계속기업기준에서의 손실흡수성",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#na1"
+  "url": "/kics/310/#na1"
  },
  {
   "id": "3_1_나2",
@@ -3514,7 +3490,7 @@
   "desc": "청산기준에서의 손실흡수성",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#na2"
+  "url": "/kics/310/#na2"
  },
  {
   "id": "3_1_다1",
@@ -3527,7 +3503,7 @@
   "desc": "부채항목 중 보완자본으로 인정받는 항목",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#da1"
+  "url": "/kics/310/#da1"
  },
  {
   "id": "3_1_다2",
@@ -3540,7 +3516,7 @@
   "desc": "자본성 있는 계약자지분조정과 배당 보험계약의 요구자본 상당액 중 작은 금액",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#da2"
+  "url": "/kics/310/#da2"
  },
  {
   "id": "3_1_라1",
@@ -3553,7 +3529,7 @@
   "desc": "지급이 예정된 주주배당액",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la1"
+  "url": "/kics/310/#la1"
  },
  {
   "id": "3_1_라2",
@@ -3566,7 +3542,7 @@
   "desc": "교차보유한 자본증권",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la2"
+  "url": "/kics/310/#la2"
  },
  {
   "id": "3_1_라3",
@@ -3579,7 +3555,7 @@
   "desc": "자본요건(기본/보완) 미충족 보통주 외 자본성증권",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la3"
+  "url": "/kics/310/#la3"
  },
  {
   "id": "3_1_라4",
@@ -3592,7 +3568,7 @@
   "desc": "순 확정급여형 퇴직연금자산 상당액의 50%",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la4"
+  "url": "/kics/310/#la4"
  },
  {
   "id": "3_1_라5",
@@ -3605,7 +3581,7 @@
   "desc": "순 확정급여형 퇴직연금자산 상당액의 50%과 순이연법인세자산 상당액 합계액 중 총요구자본의 15%를 초과하는 부분",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la5"
+  "url": "/kics/310/#la5"
  },
  {
   "id": "3_1_라6",
@@ -3618,7 +3594,7 @@
   "desc": "인정한도 초과금액",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la6"
+  "url": "/kics/310/#la6"
  },
  {
   "id": "3_1_라7",
@@ -3631,7 +3607,7 @@
   "desc": "연결관련 차감항목",
   "path": "kics/03-ac",
   "FILE": "3-1.mdx",
-  "url": "/kics/03-ac/3-1/#la7"
+  "url": "/kics/310/#la7"
  },
  {
   "id": "3_2_나1",
@@ -3644,7 +3620,7 @@
   "desc": "순자산",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#na1"
+  "url": "/kics/320/#na1"
  },
  {
   "id": "3_2_나2",
@@ -3657,7 +3633,7 @@
   "desc": "차감하는 항목",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#na2"
+  "url": "/kics/320/#na2"
  },
  {
   "id": "3_2_다1",
@@ -3670,7 +3646,7 @@
   "desc": "기본자본 자본증권의 인정한도를 초과한 금액",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da1"
+  "url": "/kics/320/#da1"
  },
  {
   "id": "3_2_다2",
@@ -3683,7 +3659,7 @@
   "desc": "보완자본 자본증권",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da2"
+  "url": "/kics/320/#da2"
  },
  {
   "id": "3_2_다3",
@@ -3696,7 +3672,7 @@
   "desc": "해약환급금 부족분 상당액 중 해약환급금준비금 상당액 초과분",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da3"
+  "url": "/kics/320/#da3"
  },
  {
   "id": "3_2_다4",
@@ -3709,7 +3685,7 @@
   "desc": "담보제공자산 중 피담보채무 및 관련 요구자본을 초과한 금액",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da4"
+  "url": "/kics/320/#da4"
  },
  {
   "id": "3_2_다5",
@@ -3722,7 +3698,7 @@
   "desc": "순 확정급여형 퇴직연금자산 상당액의 50%",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da5"
+  "url": "/kics/320/#da5"
  },
  {
   "id": "3_2_다6",
@@ -3735,7 +3711,7 @@
   "desc": "순이연법인세자산 상당액",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da6"
+  "url": "/kics/320/#da6"
  },
  {
   "id": "3_2_다7",
@@ -3748,7 +3724,7 @@
   "desc": "인정한도(총요구자본15%)",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#da7"
+  "url": "/kics/320/#da7"
  },
  {
   "id": "3_2_라1",
@@ -3761,7 +3737,7 @@
   "desc": "재분류항목",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#la1"
+  "url": "/kics/320/#la1"
  },
  {
   "id": "3_2_라2",
@@ -3774,7 +3750,7 @@
   "desc": "부채항목 중 가산항목",
   "path": "kics/03-ac",
   "FILE": "3-2.mdx",
-  "url": "/kics/03-ac/3-2/#la2"
+  "url": "/kics/320/#la2"
  },
  {
   "id": "3_3_나1",
@@ -3787,7 +3763,7 @@
   "desc": "가용성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#na1"
+  "url": "/kics/330/#na1"
  },
  {
   "id": "3_3_나2",
@@ -3800,7 +3776,7 @@
   "desc": "지속성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#na2"
+  "url": "/kics/330/#na2"
  },
  {
   "id": "3_3_나3",
@@ -3813,7 +3789,7 @@
   "desc": "후순위성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#na3"
+  "url": "/kics/330/#na3"
  },
  {
   "id": "3_3_나4",
@@ -3826,7 +3802,7 @@
   "desc": "기타제한의 부재",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#na4"
+  "url": "/kics/330/#na4"
  },
  {
   "id": "3_3_다1",
@@ -3839,7 +3815,7 @@
   "desc": "가용성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#da1"
+  "url": "/kics/330/#da1"
  },
  {
   "id": "3_3_다2",
@@ -3852,7 +3828,7 @@
   "desc": "지속성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#da2"
+  "url": "/kics/330/#da2"
  },
  {
   "id": "3_3_다3",
@@ -3865,7 +3841,7 @@
   "desc": "후순위성",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#da3"
+  "url": "/kics/330/#da3"
  },
  {
   "id": "3_3_다4",
@@ -3878,6 +3854,6 @@
   "desc": "기타제한의 부재",
   "path": "kics/03-ac",
   "FILE": "3-3.mdx",
-  "url": "/kics/03-ac/3-3/#da4"
+  "url": "/kics/330/#da4"
  }
 ]
