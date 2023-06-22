@@ -1,12 +1,10 @@
 ---
-title: 2.2.2 기준서 개정
+title: 2.2.2. 기준서 개정
 description: Amendments to IFRS 17
 ---
-import {  Tab, Tabs, Cards, Collapse, Steps } from 'nextra-theme-docs'
-import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, Callout,M1, G2Col}  from '../../../../components/prime'
-import Image from 'next/image'
+import { Image } from 'primereact/image';
 
-# 2.2.2 기준서 개정
+# 2.2.2. 기준서 개정
 
 ## 보험계약서비스 이외의 서비스&#x20;
 
@@ -15,8 +13,8 @@ import Image from 'next/image'
 
 <Card title ="분리되는 서비스 요소의 정의 개정 전·후 비교" style={{ backgroundColor: 'var(--bluegray-50)'}}>
 
-<TabView>
-<TabPanel header="문단 10"  leftIcon="pi pi-calendar mr-2">
+<Accordion activeIndex={[]}>
+<AccordionTab header="문단 10"  leftIcon="pi pi-calendar mr-2">
  **\[2017.05 제정안]**
 
 보험계약은 별도의 계약이라면 다른 기준서의 적용범위에 포함되는 하나 이상의 구성요소를 포함할 수 있다. 예를 들어 보험계약에는 투자요소 또는 ***서비스요소***(혹은 둘 다)가 포함될 수 있다. 계약의 구성 요소를 식별하여 회계처리하기 위해 문단 11\~13을 적용한다.
@@ -26,9 +24,9 @@ import Image from 'next/image'
  **\[2020.06 최종안]**
 
 보험계약은 별도의 계약이라면 다른 기준서의 적용범위에 포함되는 하나 이상의 구성요소를 포함할 수 있다. 예를 들어 보험계약에는 투자요소 또는 ***보험계약서비스 이외의 서비스요소***(혹은 둘 다)가 포함될 수 있다. 계약의 구성 요소를 식별하여 회계처리하기 위해 문단 11\~13을 적용한다.
-</TabPanel>
+</AccordionTab>
 
-<TabPanel header="문단 12"  leftIcon="pi pi-calendar mr-2">
+<AccordionTab header="문단 12"  leftIcon="pi pi-calendar mr-2">
  **\[2017.05 제정안]**
 
 문단 11을 적용하여 내재파생상품 및 명백히 구분되는 투자요소와 관련된 현금흐름을 분리한 후, 보험계약자에게 명백히 구분되는 재화나 ***비보험 서비스***를 이전하겠다는 약정은 기업회계기준서 제1115호 문단 7을 적용하여 주계약인 보험계약에서 분리한다. 그러한 약속은 기업회계기준서 제1115호를 적용하여 회계처리한다. 그러한 약속을 분리하기 위하여 기업회계기준서 제1115호 문단 7을 적용할 때에는 이 기준서의 문단 B33\~B35를 적용하고, 최초 인식 시 다음과 같이 회계처리한다. &#x20;
@@ -46,12 +44,12 @@ import Image from 'next/image'
 * ⑵ 현금유출액을 보험요소와 기업회계기준서 제1115호를 적용해 회계처리하는 약속된 재화 또는 ***보험계약서비스 이외의 서비스***로 배분하기 위해 다음과 같이 처리한다.
 
 
-</TabPanel>
-</TabView>
+</AccordionTab>
+</Accordion>
 
 </Card>
 
-
+<br></br>
 
 ## 투자요소 정의 및 적용기준서
 
@@ -61,10 +59,10 @@ IASB는 기준서 문단 BC34에서의 투자요소 정의를 검토함. 투자�
 
 또한 보험계약에서 분리된 투자요소가 재량적 참가특성이 있는 투자계약에 해당하지 않는 경우에만 IFRS 9을 적용하고, 투자요소가 재량적 참가특성이 있는 투자계약인 경우에는 IFRS 17을 적용함. &#x20;
 
-#### 투자요소 관련 기준서 개정 전·후 비교&#x20;
 <Card title="투자요소 관련 기준서 개정 전·후 비교" style={{ backgroundColor: 'var(--bluegray-50)'}}>
-<TabView>
-<TabPanel header="Appendix A"  leftIcon="pi pi-calendar mr-2">
+
+<Accordion activeIndex={[]}>
+<AccordionTab header="Appendix A"  leftIcon="pi pi-calendar mr-2">
 **\[2017.05 제정안]**
 
 ***투자요소***&#x20;
@@ -78,9 +76,9 @@ IASB는 기준서 문단 BC34에서의 투자요소 정의를 검토함. 투자�
 ***투자요소***
 
 ***보험사건 발생 여부와 관계없이 모든 상황에서*** 보험계약에 따라 보험자가 보험계약자에게 상환해야 하는 금액
-</TabPanel>
+</AccordionTab>
 
-<TabPanel header="문단 11"  leftIcon="pi pi-calendar mr-2">
+<AccordionTab header="문단 11"  leftIcon="pi pi-calendar mr-2">
 **\[2017.05 제정안]**&#x20;
 
 다음과 같이 처리한다.
@@ -94,6 +92,6 @@ IASB는 기준서 문단 BC34에서의 투자요소 정의를 검토함. 투자�
 다음과 같이 처리한다.
 
 * (2) 투자요소가 명백히 구분되는 경우에만 투자요소를 주계약인 보험계약에서 분리한다(문단 B31-B32 참조). ***다만*** 분리된 투자요소가 ***이 기준서의 적용범위에 포함되는 재량적 참가특성이 있는 투자계약이 아니라면*** 기업회계기준서 제1109호를 적용하여 회계처리한다.***(문단 3(3) 참조)***
-</TabPanel>
-</TabView>
+</AccordionTab>
+</Accordion>
 </Card>
