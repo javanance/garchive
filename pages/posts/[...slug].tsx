@@ -7,8 +7,7 @@ import RootLayout from '../../layout/rootlayout'
 import ContentLayout from '../../layout/contentLayout'
 import JSON from '../../layout/noticeSidebar.json';
 import {Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, DataTable, Column}  from '@/components/prime'
-import DataTableDemo  from '@/components/dataTableDemo'
-
+import { DataTableDemo }  from '@/components/dataTableDemo'
 
 export async function getStaticPaths() {
   // Get a list of valid post paths.
