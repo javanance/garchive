@@ -21,7 +21,7 @@ import { Panel } from 'primereact/panel';
 import { Fieldset  } from 'primereact/fieldset';
 import { Message } from 'primereact/message';
 import { PrimeIcons } from 'primereact/api';
-
+import { Image } from 'primereact/image';
 
 
 const GSheet = (props) => {
@@ -134,4 +134,9 @@ const { fontSize= '1.0rem' , width='100%',  borderWidth='0 0 0 6px'} = props;
     )
 }
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math};
+const SubText = ({ children }) => {
+  return <p style={{ fontSize: '0.8rem' }}>{children}</p>;
+}
+
+
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText};

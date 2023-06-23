@@ -4001,7 +4001,7 @@
 .p-accordion .p-accordion-content {
   padding: 1.25rem;
   border: 1px solid #dee2e6;
-  background: #ffffff;
+  background: #f7f8f9;  /*#ffffff   #f7f8f9*/
   color: #495057;
   border-top: 0;
   border-top-right-radius: 0;
@@ -4014,13 +4014,15 @@
 }
 
 .p-card {
-  background: #ffffff;
+  background: transparent ; /*ffffff*/
   color: #495057;
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid #dddddd; /* 테두리를 얇은 회색 선으로 설정 */
+  box-shadow: none; /* 그림자 없애기 */
+  /*box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);*/
   border-radius: 6px;
 }
 .p-card .p-card-body {
-  padding: 1.25rem;
+  padding: 1.0rem; /*1.25rem;*/
 }
 .p-card .p-card-title {
   font-size: 1.5rem;
@@ -4033,7 +4035,7 @@
   color: #6c757d;
 }
 .p-card .p-card-content {
-  padding: 1.25rem 0;
+  padding: 0 0;  /*1.25rem;*/
 }
 .p-card .p-card-footer {
   padding: 1.25rem 0 0 0;
@@ -4177,7 +4179,7 @@
 }
 
 .p-tabview .p-tabview-nav {
-  background: #ffffff;
+  background: transparent; /* #ffffff */
   border: 1px solid #dee2e6;
   border-width: 0 0 2px 0;
   padding-inline-start : 0;

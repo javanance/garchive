@@ -3,8 +3,9 @@ import { allKics, type Kics } from 'contentlayer/generated'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import ContentLayout from '../../layout/contentLayout'
 import JSON from '../../layout/kicsSidebar.json';
-import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math}  from '@/components/prime'
+import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText}  from '@/components/prime'
 import OverlayDemo  from '@/components/overlayDemo'
+
 
 export async function getStaticPaths() {
   // Get a list of valid post paths.
@@ -55,7 +56,7 @@ export async function getStaticProps(context) {
 
 const usedcomponents = {
   Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset
-  , Callout, M1, G2Col, GSheet, Math, OverlayDemo
+  , Callout, M1, G2Col, GSheet, Math, OverlayDemo, Image, SubText
 };
 
 export default function Page({ post }: { post: Kics }) {
@@ -68,7 +69,7 @@ export default function Page({ post }: { post: Kics }) {
   console.log('===============kics/slug')
   console.log(rightMenu);
   console.log('url : '+ url);
-  
+
   return (
       <ContentLayout menu ={models} rightMenu = {rightMenu}  pageUrl = {url} >
         <MDXContent components={usedcomponents} />

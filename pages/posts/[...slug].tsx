@@ -6,7 +6,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 import RootLayout from '../../layout/rootlayout'
 import ContentLayout from '../../layout/contentLayout'
 import JSON from '../../layout/noticeSidebar.json';
-import {Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, DataTable, Column}  from '@/components/prime'
+import {Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, DataTable, Column, Image, SubText}  from '@/components/prime'
 import { DataTableDemo }  from '@/components/dataTableDemo'
 
 export async function getStaticPaths() {
@@ -56,7 +56,7 @@ export async function getStaticProps(context) {
 }
 
 const usedcomponents = {
-  Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, DataTableDemo
+  Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, GSheet, DataTableDemo, Image, SubText
 };
 
 
