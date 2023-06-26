@@ -1,5 +1,5 @@
 
-import React, { Children } from 'react';
+import React, { Children, useState, useEffect } from 'react';
 // import 'primereact/resources/themes/bootstrap4-light-blue/theme.css';
 // import 'primereact/resources/themes/lara-light-indigo/theme.css';
 // import 'primereact/resources/themes/lara-light-indigo/theme.css';
@@ -134,9 +134,61 @@ const { fontSize= '1.0rem' , width='100%',  borderWidth='0 0 0 6px'} = props;
     )
 }
 
+// 특정 영역 주석용 폰트사이즈 작게
 const SubText = ({ children }) => {
-  return <p style={{ fontSize: '0.8rem' }}>{children}</p>;
-}
+  const [fontSize, setFontSize] = useState('1rem');
+  const contentStyle = {
+      margin: '0',
+      padding: '0',
+    };
+  useEffect(() => {setFontSize('0.8rem');}, []);
+
+  return (
+    <div style={{ fontSize }}>
+    <ul style={contentStyle}>
+      {children}
+    </ul>
+    </div>
+  );
+};
 
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText};
+// 수식에서 추가 설명용
+const SCard = (props) => {
+  const { fontSize = '0.9rem' } = props;
+
+  const cardStyle = {
+    fontSize,
+  //  background: '#ffffff', // 배경
+    border: 'none',          // 테두리 없음
+    padding: '0',
+  };
+
+  const contentStyle = {
+  margin: '0',
+  padding: '0',
+};
+
+return (
+  <Card {...props} style={cardStyle}>
+    <div style={contentStyle}>
+      <ul style={contentStyle}>
+        {props.children}
+      </ul>
+    </div>
+  </Card>
+);
+};
+
+// default style 지정 이미지 : 가운데 정렬, 최대 사이즈 고정
+const CenterImg = (props) => {
+  const { src, width = 700, imageStyle = { display: 'block', margin: '0 auto' } } = props;
+
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <Image src={src} width={width} style={imageStyle} />
+    </div>
+  );
+};
+
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText, SCard, CenterImg};

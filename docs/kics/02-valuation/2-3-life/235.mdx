@@ -21,12 +21,14 @@ title: "II.3-5. 재보험자산"
  <center>
  $\displaystyle\sum_i^n (PD_i \times$ 부도시손실액$_i)$
  </center>
+ <SCard>
   - $i$ =  평가시점부터 만기까지의 각 시점.
   - $n$ =  만기
   - 부도확률 : $PD_i = PD \cdot (1-PD)^{i-1}$
   - $PD$ = 재보험 거래상대방의 12개월 내 부도확률
   - 부도시손실액$_i$ = $ \sum_i^n C_i \cdot$ (1-회수율)
   - $C_i$ = Max(CFin$_i$ - CFout$_i$, 0))
+</SCard>
  </Math>
 
 
@@ -99,10 +101,12 @@ title: "II.3-5. 재보험자산"
  <center>
   $CE_{조정전} - max($손실조정률(%) $\times CE_{조정전}, 0)$
  </center>
+ <SCard>
  - $CE_{조정전}$ : 손실조정 반영전 재보험자산의 장래 현금흐름 현가
  - 손실조정률(%) : $0.5 \times \frac{PD}{1-PD} \times$ 유효만기
  - $PD$ : 재보험 거래상대방의 부도확률
  - 유효만기 : $\frac {\sum_i i \times CF_i}{\sum_i CF_i}$
+</SCard>
 </Math>
 
 <Fieldset legend = "간편법을 이용한 손실조정 반영" toggleable>

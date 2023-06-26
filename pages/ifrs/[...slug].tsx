@@ -9,7 +9,7 @@ import ContentLayout from '../../layout/contentLayout'
 
 // import ContentLayout from '../../layout/contentLayout'
 import JSON from '../../layout/ifrsSidebar.json';
-import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText}  from '@/components/prime'
+import {Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText, SCard, CenterImg}  from '@/components/prime'
 import OverlayDemo  from '@/components/overlayDemo'
 
 
@@ -61,7 +61,7 @@ export async function getStaticProps(context) {
 
 const usedcomponents = {
   Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset
-  , Callout, M1, G2Col, GSheet, Math, OverlayDemo, Image, SubText
+  , Callout, M1, G2Col, GSheet, Math, OverlayDemo, Image, SubText, SCard, CenterImg
 };
 
 export default function Page({ post }: { post: Ifrs }) {
