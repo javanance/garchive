@@ -5,8 +5,8 @@
           "items": [
                  { "label": "Term-I.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
                 ,{ "label": "Term-I2.총칙", "icon": "pi pi-fw pi-home", "to": "/posts/change-me" }
-                ,{ "label": "Term-I3.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
-                ,{ "label": "Term-I4.총칙", "icon": "pi pi-fw pi-home", "to": "/" }
+                ,{ "label": "SmithWilsonKics", "icon": "pi pi-fw pi-home", "to": "/posts/SmithWilsonKics" }
+                ,{ "label": "SmithWilsonKicsBts", "icon": "pi pi-fw pi-home", "to": "/posts/SmithWilsonKicsBts" }
                 ,{ "separator": true  }
             ]
      }
