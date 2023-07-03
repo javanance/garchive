@@ -103,18 +103,18 @@ title: "3. 주식위험액"
 <TabView>
     <TabPanel header="(예시1)" >
 **보유계약 만료에 따른 해체 및 재설정**
-<CenterImg src ="/kics/443_1.png" />
+<CenterImg src ="/kics/443_1.png" caption="보유계약 만료에 따른 해체 및 재설정 " />
 
     </TabPanel>
     <TabPanel header="(예시2)" >
 **장기보유주식집합의 편입**
-<CenterImg src ="/kics/443_2.png" />
+<CenterImg src ="/kics/443_2.png" caption="장기보유주식집합의 편입"/>
 
      </TabPanel>
     <TabPanel header="(예시3)" >
 **장기보유주식집합 內 일부 주식의 매도**
 <CenterImg src ="/kics/443_3.png" />
-<CenterImg src ="/kics/443_4.png" />
+<CenterImg src ="/kics/443_4.png" caption="장기보유주식집합 內 일부 주식의 매도"/>
 
     </TabPanel>
 </TabView>
@@ -136,7 +136,7 @@ title: "3. 주식위험액"
 ### (1) 주가하락시나리오
 주가하락 충격시나리오는 “나.”에서 정의한 주식유형별로 적용한다.
 
-<Accordion multiple activeIndex={[]}>
+<Accordion activeIndex={[]}>
 <AccordionTab header="① 선진시장상장주식위험액 충격수준 (35%) 도출 근거">
 선진시장 상장주식에 대한 주가하락 충격 시나리오는 ICS 기준*을 동일하게 적용
 <SubText> *FTSE 선진국(Developed markets) 지수를 이용하여 99.5\% 신뢰수준 하에서의 충격수준 도출</SubText>
@@ -150,7 +150,7 @@ title: "3. 주식위험액"
 
 우선주위험액의 충격 시나리오는 동일 등급의 일반채권에 부여되는 리스크 수준과 주식에 부여되는 리스크 수준을 가중 평균하여 충격 수준을 제시(☞ICS와 동일한 방식)
 
-<CenterImg src ="/kics/443_5.png" />
+<CenterImg src ="/kics/443_5.png" caption="〈참고〉 가중 평균 방법론"/>
 
 
 한편, 주식유형으로 분류할 수 있는 후순위 채무\*의 충격 수준은 시장리스크의 분산효과\**와 후순위 위험특성\***을 고려하여 선순위 특수금융에 대한 신용리스크 위험계수의 2배 수준을 적용
@@ -190,7 +190,7 @@ FTSE 선진국 지수에 대해 보유기간별 손실률을 분석한 결과, �
 
 ㉯ “㉮”에 따라 산출한 조정후 신용등급을 <OverlayDemo id="452_나"/>“(2)” 또는 “(3)”의 방법에 따라 조정후 K-ICS신용등급으로 매핑
 
-<CenterImg src ="/kics/443_6.png" />
+<CenterImg src ="/kics/443_6.png" caption="선순위채권 신용등급 대비 등급조정(노치) 기준" />
 
 </Card>
 <br/>
@@ -230,7 +230,7 @@ FTSE 선진국 지수에 대해 보유기간별 손실률을 분석한 결과, �
 <Accordion multiple activeIndex={[]}>
 <AccordionTab header="레버리지 펀드 정의 및 간접투자기구 요구자본 산출 프로세스">
 레버리지 펀드 정의 : 레버리지 펀드는 “II.2-4.가.(1)”의 금융부채 또는 “IV.1-5”에 따른 위험경감기법이 아닌 파생상품을 편입할 수 있는 간접투자기구를 의미
-<CenterImg src ="/kics/443_7.png" />
+<CenterImg src ="/kics/443_7.png" caption="간접투자기구 요구자본 산출 프로세스"/>
 <SubText> *LT : Look-through(편입자산분해) </SubText>
 </AccordionTab>
 <AccordionTab header="레버리지비율">
@@ -312,23 +312,23 @@ FTSE 선진국 지수에 대해 보유기간별 손실률을 분석한 결과, �
 
 ① Base 주식 수익률 시나리오 생성 (주가 변동성 모수 20% 가정)
 - 보증옵션 효과를 반영하기 위해 1,000개의 확률론적 주식 수익률 시나리오 생성
-<CenterImg src ="/kics/443_8.png" />
+<CenterImg src ="/kics/443_8.png" caption="① Base 주식 수익률 시나리오 생성" />
 
 ② 만기시점의 보증효과를 포한한 변액보험 가치 및 순자산 가치 산출
 - 변액보험의 적립금 가치는 1,000개의 만기시점의 가치를 평균한 11,950원이며, Base 시나리오의 순자산가치(자산가치-부채가치)는 –1,950(=10,000-11,950)원으로 산출
-<CenterImg src ="/kics/443_9.png" />
+<CenterImg src ="/kics/443_9.png" caption="② 만기시점의 보증효과를 포한한 변액보험 가치 및 순자산 가치 산출"/>
 
 **(2) 주가하락 및 변동성상승 시나리오의 변액보험 가치 산출**
 
 ① 변액보험 변동성 충격 주식 수익률 시나리오 생성
 - 주식 변동성 모수 20%에 6.5%p를 가산한 26.5%를 변동성으로 하는 주가 수익률 시나리오 생성하며, 주가하락 충격 반영을 위해 35%하락 충격을 적용
-<CenterImg src ="/kics/443_10.png" />
+<CenterImg src ="/kics/443_10.png" caption ="① 변액보험 변동성 충격 주식 수익률 시나리오 생성" />
 
 ② 주가하락 및 변동성 상승을 반영한 변액보험 적립금 가치 및 순자산 가치 산출
 - 보유주식 하락으로 초기 적립금이 35% 감소한 4,550원에 변동성 충격이 반영된 주식 수익률 시나리오를 적용하여 변액보험의 적립금 가치를 산출
 - 변액보험의 적립금 가치는 11,087원으로 산출되며 순자산가치는 -3,537(7,550*-11,087)원 으로 산출
 <SubText> *자산가치 : 4,550원(보유주식 7,000원에 35% 하락 충격 적용 결과) + 3,000원(보유채권)</SubText>
-<CenterImg src ="/kics/443_11.png" />
+<CenterImg src ="/kics/443_11.png" caption="② 주가하락 및 변동성 상승을 반영한 변액보험 적립금 가치 및 순자산 가치 산출" />
 
 **(3) 변액보험 주식위험 산출**
 
@@ -353,7 +353,7 @@ Base 시나리오의 순자산가치 –1,950원과 주가하락 및 변동성 �
 리스크량 = $\sqrt{유형1^2 + 2 × 0.75 × 유형1 × (유형2 + 인프라) + (유형2 + 인프라)2}$
 - (ICS) 선진시장과 우선주 유형 간 상관계수는 1을 적용하고, 그 외의 주식은 상관계수 0.75 적용
 
-<CenterImg src ="/kics/443_12.png" />
+<CenterImg src ="/kics/443_12.png" caption="(ICS)주식유형별 하위위험 간 상관계수"/>
 
 </AccordionTab>
 </Accordion>

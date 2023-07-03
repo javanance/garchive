@@ -182,11 +182,12 @@ return (
 
 // default style 지정 이미지 : 가운데 정렬, 최대 사이즈 고정
 const CenterImg = (props) => {
-  const { src, width = 680, imageStyle = { display: 'block', margin: '0 auto' } } = props;
+  const { src, width = 680, imageStyle = { display: 'block', margin: '0 auto' }, caption } = props;
 
   return (
     <div style={{ textAlign: 'center' }}>
       <Image src={src} width={width} style={imageStyle} />
+      {caption && <p>{caption}</p>}
     </div>
   );
 };
