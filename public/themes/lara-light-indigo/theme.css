@@ -3959,7 +3959,7 @@
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
-  padding: 0.5rem;
+  padding: 1.0rem;
   /* border: 1px solid #dee2e6; */
   color: #6c757d;
   /* background: #f8f9fa; */
@@ -3968,8 +3968,6 @@
   /* border : 1px solid var(--blue-100); */
   font-weight: 700;
   border-radius: 6px;
-  font-size: 0.9em; /* 폰트 사이즈 조정 */
-  font-style: italic; /* 기울임 */
   transition: box-shadow 0.2s;
 }
 .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
@@ -4010,7 +4008,6 @@
   border-top-left-radius: 0;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
-  font-size: 1.0em; /* 폰트 사이즈 조정 */
 }
 .p-accordion .p-accordion-tab {
   margin-bottom: 4px;
@@ -4197,14 +4194,12 @@
   border-color: transparent transparent #dee2e6 transparent;
   background: #f4fcf7;
   color: #6c757d;
-  padding: 0.5rem; /* 0.8 -> 0.5 수정*/
+  padding: 0.8rem;
   font-weight: 700;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   transition: box-shadow 0.2s;
   margin: 0 0 -2px 0;
-  font-size: 0.9em; /* 폰트 사이즈 조정 */
-  font-style: italic; /* 기울임 */
 
 }
 .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
@@ -4239,12 +4234,11 @@
 }
 .p-tabview .p-tabview-panels {
   background: #ffffff;
-  padding: 0.5rem; /*1.25 -> 0.5 */
+  padding: 1.25rem;
   border: 0 none;
   color: #495057;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
-  font-size: 1.0em; /* 폰트 사이즈 조정 */
 }
 
 .p-toolbar {
