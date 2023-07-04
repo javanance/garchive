@@ -113,8 +113,9 @@ const Math = (props) => {
     );
 
     // const { severity= 'info' , width='100%', height='-webkit-fill-available',  borderWidth='0 0 0 6px'} = props;
-const { fontSize= '1.0rem' , width='100%',  borderWidth='0 0 0 6px'} = props;
+const { fontSize = '1.0rem', width='100%',  borderWidth='0 0 0 6px', marginRatio = '10%'} = props;
     return (
+       <div style={{ marginLeft: marginRatio,marginRight: marginRatio,marginBottom: '10px'  }}>
                 <Message
                 style={{
                     borderWidth: borderWidth,
@@ -122,7 +123,8 @@ const { fontSize= '1.0rem' , width='100%',  borderWidth='0 0 0 6px'} = props;
                     width : width,
                     // height: height,
                     alignItems:'start',
-                    fontSize :fontSize
+                    fontSize :fontSize,
+                    padding: '10px'
                 }}
                 // className="border-primary w-full justify-content-start"
                 severity={'success'}
@@ -130,7 +132,7 @@ const { fontSize= '1.0rem' , width='100%',  borderWidth='0 0 0 6px'} = props;
                 content={content}
                 >
                 </Message>
-
+      </div>
     )
 }
 

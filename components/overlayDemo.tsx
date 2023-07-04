@@ -32,20 +32,31 @@ export default function OverlayDemo(prop) {
 
     console.log('bbb :' + aaa.name)
 
-    const label = aaa.title + ' ('+ aaa.desc + ')';
+//    참조위치를 설명하고 이동하는 링크기능과 + 용어설명의 용도를 추가하기 위해 구분함. (용어설명은 url, 및 hierachy 를 구분하는 LEVEL은 없고, id, title, desc로 구성되며 해당용어에 대한 설명만을 기술함. )
+//    const label = aaa.title + ' ('+ aaa.desc + ')';
+      const label = aaa.url ? aaa.title + ' (' + aaa.desc + ')' : aaa.title + '*';
+
+// OverlayPanel : 마우스가 hover될때 표시되는 내용도 용도에 따라 다르기 때문에 style을 다르게 구분함.
+// {aaa.LEVEL3 !== undefined ? ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.LEVEL3 + ' > ' + aaa.desc)
+                                     // : ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.desc)}
 
     return (
         <>
               <a  href = {aaa.url} target='blank' >
 
                 <Button severity="warning"  link
-                    label= {label} style ={{padding : '0px 10px'}}
+                    label= {label} style ={{padding : aaa.url ?'0px 5px' : '0px 0px',
+                                           fontStyle: aaa.url ? 'normal' : 'italic',
+                                           fontSize: '1.0em',
+                                           color: aaa.url ?  '' : '#555555' }}
                     onMouseEnter={(e) => op.current.toggle(e)} onMouseLeave ={(e) => op.current.toggle(e)}
                 />
             </a>
-            <OverlayPanel ref={op}>
-            {aaa.LEVEL3 !== undefined ? ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.LEVEL3 + ' > ' + aaa.desc)
-                                                 : ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.desc)}
+            <OverlayPanel ref={op} style={{ fontSize: '0.95em' }}>
+               {aaa.LEVEL1 ? (
+                              aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
+                             ) : ( aaa.desc )}
+
             </OverlayPanel>
 
 

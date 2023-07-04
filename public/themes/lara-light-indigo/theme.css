@@ -4001,7 +4001,7 @@
   color: #343a40;
 }
 .p-accordion .p-accordion-content {
-  padding: 1.25rem;
+  padding: 1.45rem; /*1.25 ->1.45*/
   border: 1px solid #dee2e6;
   background: #f7f8f9;  /*#ffffff   #f7f8f9*/
   color: #495057;
