@@ -52,7 +52,7 @@ export default function OverlayDemo(prop) {
                     onMouseEnter={(e) => op.current.toggle(e)} onMouseLeave ={(e) => op.current.toggle(e)}
                 />
             </a>
-            <OverlayPanel ref={op} style={{ fontSize: '0.95em' }}>
+            <OverlayPanel ref={op} style={{ fontSize: '0.95em' , width: '30%', margin: '0 auto'}}>
                {aaa.LEVEL1 ? (
                               aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
                              ) : ( aaa.desc )}
