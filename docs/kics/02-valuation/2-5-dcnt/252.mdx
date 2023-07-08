@@ -17,11 +17,7 @@ title: "II.5-2. 할인율 산출구조"
 <SubText> \* 단, 보험부채의 현금흐름이 자산의 현금흐름과 유사한 구조로 발생하는 등 일정 요건 충족시 감독원장의 승인 하에 매칭 조정 적용 가능</SubText>
 </Math>
 
-<br/><br/>
-
-<TabView>
-  <TabPanel header="무위험 금리기간구조">
-<SCard>
+<SCard subTitle="무위험 금리기간구조">
 시장에서 관찰 가능한 무위험 금리 대상(국고채 등) 및 <OverlayDemo id="최종관찰만기" />를 선정하고, 관찰되지 않는 기간은 무위험 금리를 추정
 - 국고채는 만기 20년까지만 사용. 즉, 국채가 관찰되는 기간의 최종만기 (LOT: Last Observed Term)는 20년으로 결정.
 - 관측구간, 보간구간, 수렴구간으로 구분
@@ -29,10 +25,8 @@ title: "II.5-2. 할인율 산출구조"
 2. 보간기간 : 관측기간과 수렴기간 사이는 스미스-월슨 기법으로 보간(예시: 20년~60년)
 3. 수렴기간 : <OverlayDemo id="최종관찰만기" />에 기반하여 무위험수익률을 결정하는 구간(예시: 60년 이후)
 </SCard>
-  </TabPanel>
 
-  <TabPanel header="변동성 조정">
-<SCard>
+<SCard subTitle="변동성 조정">
 <OverlayDemo id="변동성조정" />은 보험산업 대표 포트폴리오의 <OverlayDemo id="위험스프레드" />에서 <OverlayDemo id="신용위험스프레드" />를 차감한 후 적용비율을 곱하여 산출
 
 <Math marginRatio = '2%' >
@@ -48,9 +42,6 @@ title: "II.5-2. 할인율 산출구조"
 </SCard>
 </Math>
 </SCard>
-  </TabPanel>
-
-</TabView>
 
 </Fieldset>
 

@@ -64,6 +64,7 @@
                         { "label": "개요", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/310" }
                        ,{ "label": "계층화", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/320" }
                        ,{ "label": "자본증권의 계층분류기준", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/330" }
+                       ,{ "label": "[참고] 지급여력금액 요약", "icon": "", "to": "/kics/300" }
 
                ]
             }

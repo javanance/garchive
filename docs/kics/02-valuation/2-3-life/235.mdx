@@ -115,12 +115,12 @@ title: "II.3-5. 재보험자산"
 
 - ③ 유효만기는 “(1)”의 구분기준 별로 산출하여야 하며, 순현금흐름(현금유입-현금유출) 기준 으로 산출(순현금흐름이 음수인 경우 0으로 처리)한다. 단, 시스템 구축 미비 등으로 거래 상대방 별 현금흐름 산출이 어려운 경우 잔존만기를 유효만기로 사용할 수 있다.
 
-</Fieldset>
+
 
 
 <Accordion multiple activeIndex={[]}>
 <AccordionTab header="손실조정 간편법의 결론도출 근거">
-
+<SCard>
 ① 손실조정 전 재보험자산 현금흐름(회수가능 금액)을 아래와 같이 정의
 - $$CE_{조정전} = \displaystyle \sum_{t\le 1} \dfrac{CF_t}{(1+r)^t}$$
 <SCard>
@@ -170,10 +170,11 @@ $= CE_{조정전} - \dfrac{PD}{1-PD} \times 유효만기 \times CE_{조정전}$
 $ = 손실조정률(\%) \times CE_{조정전}$
 
 이라는 결론 도출이 가능 (이 때, K-ICS 손실조정 간편법에 적용한 회수율은 50%이며, 음수 손실조정금액은 불인정)
-
+</SCard>
 </AccordionTab>
 </Accordion>
 
+</Fieldset>
 
 
 
