@@ -1,0 +1,28 @@
+---
+title: 재보험자산 손실조정 간편법
+---
+# 재보험자산 손실조정 간편법
+
+<Accordion multiple activeIndex={[]}>
+<AccordionTab header="[작성 요령]">
+1. `재보험자명`에는 간편법을 적용하고자 하는 재보험자의 회사명을 기재
+2. `신용등급`은 보험업감독업무시행세칙 [별표22]의 <OverlayDemo id ="452_나"/>"(1)"에서 정한 K-ICS신용등급 적용기준에 따라 작성
+3. `PD`는 보험업감독업무시행세칙 [별표22]의 <OverlayDemo id ="452_나"/>"(1)"에서 정한 적격 외부신용평가기관의 장기평균(10년이상) 1년 부도율을 적용
+4. `유효만기`는 재보험 거래상대방별로 출재보험료부채와 출재준비금부채를 구분하여 산출
+   - 유효만기는 순현금흐름(현금유입-현금유출) 기준으로 산출 (단, 순현금흐름이 음수인 경우 0으로 처리)
+   - 시스템 구축 미비 등으로 거래상대방별 현금흐름 산출이 어려운 경우 잔존만기 사용 가능
+5. `손실조정률(%)` `= 0.5 × (PD ÷ (1 - PD)) ×유효만기`
+6. `손실조정` `= 손실조정률(%) × 조정전 현행추정부채`
+7. `조정후 현행추정부채` `= 조정전 현행추정부채 - max(손실조정, 0)`
+</AccordionTab>
+</Accordion>
+
+<br/>
+
+<iframe width="1000" height="600" frameborder="0" scrolling="no"
+src="https://onedrive.live.com/embed?resid=AB5F66CE0CF8D024%2116554&authkey=%21ACzRWZavyE-79hc&em=2
+&wdAllowInteractivity=False&ActiveCell='1-12'!D11&Item='1-12'!A7:Y28
+&wdHideGridlines=True
+&wdDownloadButton=False
+&waccluster=PSG3">
+</iframe>

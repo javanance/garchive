@@ -4,7 +4,6 @@
           "label": "Disclaimer",
           "items": [
                  { "label": "intro", "icon": "pi pi-fw pi-star-fill", "to": "/kics/intro" }
-                ,{ "label": "test", "icon": "pi pi-fw pi-star-fill", "to": "/kics/test" }
             ]
      }
      ,{
@@ -128,6 +127,12 @@
                  ]
             }
 
+            ]
+     },
+     {
+          "label": "업무보고서",
+          "items": [
+                 { "label": "업무보고서 목록", "icon": "pi pi-fw pi-paperclip", "to": "/kics/rptlist" }
             ]
      }
 
