@@ -22,6 +22,7 @@ import { Fieldset  } from 'primereact/fieldset';
 import { Message } from 'primereact/message';
 import { PrimeIcons } from 'primereact/api';
 import { Image } from 'primereact/image';
+import { Chip } from 'primereact/chip';
 
 
 const GSheet = (props) => {
@@ -194,4 +195,4 @@ const CenterImg = (props) => {
   );
 };
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText, SCard, CenterImg};
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText, SCard, CenterImg, Chip};
