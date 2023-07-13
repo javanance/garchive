@@ -30,23 +30,25 @@ const AppTopbar = forwardRef<AppTopbarRef>((props, ref) => {
     const model1 = [
         {
             label: "About",
-            icon: "pi pi-fw pi-power-off",
+            icon: "pi pi-fw pi-circle-fill",
             command: () => {
                 router.push('/');
             }
         }
+        // ,{
+        //     label: "Notice",
+        //     icon: "pi pi-fw pi-power-off",
+        //     command: () => {
+        //         router.push('/posts/click-me');
+        //     }
+        // }
+       ,{ label: "IFRS17", icon: "pi pi-fw pi-circle-fill", command: () => {router.push('/ifrs/bbb');}}
+       ,{ label: "KICS", icon: "pi pi-fw pi-circle-fill",   command: () => { router.push('/kics/intro');}}
         ,{
-            label: "Notice",
-            icon: "pi pi-fw pi-power-off",
-            command: () => {
-                router.push('/posts/click-me');
-            }
-        },
-        {
             label: "Archives",
             items: [
                  { label: "IFRS17", icon: "pi pi-fw pi-id-card", command: () => {router.push('/ifrs/bbb');}}
-                ,{ label: "KICS", icon: "pi pi-fw pi-circle",   command: () => { router.push('/kics/intro');}} 
+                ,{ label: "KICS", icon: "pi pi-fw pi-book",   command: () => { router.push('/kics/intro');}}
             ]
         }
     ]

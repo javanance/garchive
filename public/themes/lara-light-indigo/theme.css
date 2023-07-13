@@ -3964,7 +3964,7 @@
   color: #6c757d;
   /* background: #f8f9fa; */
   /* background: #d0e1fd; */
-  background: #f4fcf7;      /* var(- green-50)  greeen -100  #caf1d8   blue-50 : #f5f9ff  */
+  background: #ECEFF1;      /* var(- green-50)  greeen -100  #caf1d8   blue-50 : #f5f9ff   f7f8f9  f4fcf7*/
   /* border : 1px solid var(--blue-100); */
   font-weight: 700;
   border-radius: 6px;
@@ -4194,7 +4194,7 @@
   border: solid #dee2e6;
   border-width: 0 0 2px 0;
   border-color: transparent transparent #dee2e6 transparent;
-  background: #f4fcf7;
+  background: #f7f8f9; /* f7f8f9 f4fcf7 */
   color: #6c757d;
   padding: 0.5rem; /* 0.8 -> 0.5 수정*/
   font-weight: 700;
@@ -5574,13 +5574,13 @@
   color: #696cff;
 }
 .p-inline-message.p-inline-message-success {
-  background: #e4f8f0;
-  border: solid #1ea97c;
+  background: #ECEFF1; /*#e4f8f0  f7f8f9 F1EFEE */
+  border: solid  #6A6A6A; /*1ea97c*/
   border-width: 0px;
-  color: #1ea97c;
+  color: #6A6A6A; /*1ea97c*/
 }
 .p-inline-message.p-inline-message-success .p-inline-message-icon {
-  color: #1ea97c;
+  color: #6A6A6A; /*1ea97c*/
 }
 .p-inline-message.p-inline-message-warn {
   background: #fff2e2;
