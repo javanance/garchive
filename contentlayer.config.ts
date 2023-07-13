@@ -59,6 +59,7 @@ export const Kics = defineDocumentType(() => ({
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
+    description: { type: 'string', required: false },
     date: { type: 'date', required: false},
     tags: { type: 'list', of: { type: 'string' } },
     lastmod: { type: 'date' },
@@ -122,6 +123,7 @@ export const Ifrs = defineDocumentType(() => ({
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
+    description: { type: 'string', required: false }, 
     date: { type: 'date', required: false},
     tags: { type: 'list', of: { type: 'string' } },
     lastmod: { type: 'date' },
