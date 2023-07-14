@@ -981,7 +981,7 @@
     "LEVEL1": "Ⅱ. 자산 및 부채 평가",
     "LEVEL2": "제5장 보험부채 할인율",
     "LEVEL4": "가",
-    "desc": "변동성 조정 정의",
+    "desc": "변동성 조정 산출방법",
     "path": "kics/02-valuation/2-5-dcnt",
     "FILE": "2-5-4.mdx",
     "url": "/kics/254/#ga",
