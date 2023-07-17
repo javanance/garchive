@@ -4170,7 +4170,7 @@
   {
     "id": "최종관찰만기",
     "title": "최종관찰만기",
-    "desc": "최종관찰만기 (LOT; Last Observed Term) 란 DLT(Deep, Liquid and Transparent) 평가기준을 충족하는 시장금리 중 만기가 가장 긴 시장금리의 발행만기를 말한다."
+    "desc": "최종관찰만기 (LOT; Last Observed Term) 란 DLT(Deep, Liquid and Transparent) 평가기준을 충족하는 시장금리 중 만기가 가장 긴 시장금리의 발행만기를 말한다. 시장에서 관찰 가능한 금리 중 거래량・유동성 등이 풍부하여 사용하기에 적합한 시장금리의 가장 큰 만기로 국고채 발행잔액, 국고채 지표물 호가스프레드 등을 감안하여 결정되고 있다. "
   },
   {
     "id": "최장만기",
