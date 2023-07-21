@@ -13,12 +13,7 @@
                  "label": "I. 총칙",
                  "items": [
                         { "label": "개요", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/100" }
-                      , { "label": "용어", "icon": "pi pi-fw pi-plus-circle", "items":[
-                            { "label": "Ⅰ.총칙"              , "to": "/kics/term-1" }
-                           ,{ "label": "Ⅱ. 자산 및 부채 평가"   , "to": "/kics/term-2" }
-                           ,{ "label": "Ⅲ. 지급여력금액산출"     , "to": "/kics/term-3" }
-                           ,{ "label": "IV. 지급여력기준금액산출" , "to": "/kics/term-4" }
-                        ]}
+                      , { "label": "용어", "icon": "pi pi-fw pi-minus-circle", "to": "/kics/term" }
                    ]
             }
             ,{

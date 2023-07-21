@@ -39,6 +39,7 @@ export default function OverlayDemo(prop) {
 // OverlayPanel : 마우스가 hover될때 표시되는 내용도 용도에 따라 다르기 때문에 style을 다르게 구분함.
 // {aaa.LEVEL3 !== undefined ? ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.LEVEL3 + ' > ' + aaa.desc)
                                      // : ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.desc)}
+// aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
 
     return (
         <>
@@ -53,8 +54,9 @@ export default function OverlayDemo(prop) {
                 />
             </a>
             <OverlayPanel ref={op} style={{ fontSize: '0.95em' , width: '35%', minWidth: '400px', margin: '0 auto'}}>
-               {aaa.LEVEL1 ? (
-                              aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
+               {aaa.url ? (
+                              aaa.LEVEL1 + (aaa.LEVEL2 ? ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 ? ' > ' + aaa.LEVEL3 + ' > ' : '') : '') + aaa.desc
+
                              ) : ( aaa.desc )}
 
             </OverlayPanel>
