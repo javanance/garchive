@@ -40,6 +40,8 @@ export default function OverlayDemo(prop) {
 // {aaa.LEVEL3 !== undefined ? ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.LEVEL3 + ' > ' + aaa.desc)
                                      // : ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.desc)}
 // aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
+//textDecoration: aaa.url ? 'none' : 'underline' }}
+
 
     return (
         <>
@@ -49,7 +51,8 @@ export default function OverlayDemo(prop) {
                     label= {label} style ={{padding : aaa.url ?'0px 5px' : '0px 0px',
                                            fontStyle: aaa.url ? 'normal' : 'italic',
                                            fontSize: '1.0em',
-                                           color: aaa.url ?  '' : '#555555' }}
+                                           color: aaa.url ?  '#555555' : '#555555',
+                                           textDecoration: aaa.url ? 'none' : 'none' }}
                     onMouseEnter={(e) => op.current.toggle(e)} onMouseLeave ={(e) => op.current.toggle(e)}
                 />
             </a>

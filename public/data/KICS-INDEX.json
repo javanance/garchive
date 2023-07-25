@@ -8,8 +8,8 @@
     "LEVEL4": "가",
     "desc": "Ⅰ.총 칙”에서 정한 용어",
     "path": "kics/01-intro",
-    "FILE": "term-1.mdx",
-    "url": "/kics/term-1/#ga",
+    "FILE": "term.mdx",
+    "url": "/kics/term/#ga",
     "LEVEL3": ""
   },
   {
@@ -21,8 +21,8 @@
     "LEVEL4": "나",
     "desc": "Ⅱ.자산 및 부채평가”에서 정한 용어",
     "path": "kics/01-intro",
-    "FILE": "term-2.mdx",
-    "url": "/kics/term-2/#na",
+    "FILE": "term.mdx",
+    "url": "/kics/term/#na",
     "LEVEL3": ""
   },
   {
@@ -34,8 +34,8 @@
     "LEVEL4": "다",
     "desc": "Ⅲ.지급여력금액 산출”에서 정한 용어",
     "path": "kics/01-intro",
-    "FILE": "term-3.mdx",
-    "url": "/kics/term-3/#da",
+    "FILE": "term.mdx",
+    "url": "/kics/term/#da",
     "LEVEL3": ""
   },
   {
@@ -47,8 +47,8 @@
     "LEVEL4": "라",
     "desc": "Ⅳ.지급여력기준금액 산출”에서 정한 용어",
     "path": "kics/01-intro",
-    "FILE": "term-4.mdx",
-    "url": "/kics/term-4/#la",
+    "FILE": "term.mdx",
+    "url": "/kics/term/#la",
     "LEVEL3": ""
   },
   {
@@ -61,7 +61,7 @@
     "desc": "그룹기준 산출",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#3가",
+    "url": "/kics/100/#3ga",
     "LEVEL3": ""
   },
   {
@@ -74,7 +74,7 @@
     "desc": "지급여력금액/지급여력기준금액",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#3나",
+    "url": "/kics/100/#3na",
     "LEVEL3": ""
   },
   {
@@ -87,7 +87,7 @@
     "desc": "그룹기준 지급여력비율",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#4가",
+    "url": "/kics/100/#4ga",
     "LEVEL3": ""
   },
   {
@@ -100,7 +100,7 @@
     "desc": "종속회사 (그룹범위에 해당)",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#4나",
+    "url": "/kics/100/#4na",
     "LEVEL3": ""
   },
   {
@@ -113,7 +113,7 @@
     "desc": "비금융회사(연결대상회사에서 제외)",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#4다",
+    "url": "/kics/100/#4da",
     "LEVEL3": ""
   },
   {
@@ -126,7 +126,7 @@
     "desc": "관계회사 세부작성기준 (그룹범위에 해당)",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#4라",
+    "url": "/kics/100/#4la",
     "LEVEL3": ""
   },
   {
@@ -139,7 +139,7 @@
     "desc": "정하지 않은 계정별 합산 방법",
     "path": "kics/01-intro",
     "FILE": "01-intro.mdx",
-    "url": "/kics/100/#4마",
+    "url": "/kics/100/#4ma",
     "LEVEL3": ""
   },
   {
