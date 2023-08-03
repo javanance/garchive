@@ -17,7 +17,7 @@ export async function getStaticPaths() {
   // Get a list of valid post paths.
   console.log('==========fs');
   // console.log(allPosts);
-  console.log(allFs[0]._raw.flattenedPath);
+//  console.log(allFs[0]._raw.flattenedPath);
 
 
   const paths = allFs.map((post) => ({
