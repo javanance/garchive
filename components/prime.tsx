@@ -114,7 +114,7 @@ const Math = (props) => {
     );
 
     // const { severity= 'info' , width='100%', height='-webkit-fill-available',  borderWidth='0 0 0 6px'} = props;
-const { fontSize = '1.0rem', width='100%',  borderWidth='0 0 0 6px', marginRatio = '10%'} = props;
+const { fontSize = '1.0rem', width='100%',  borderWidth='0 0 0 6px', marginRatio = '2%'} = props;
     return (
        <div style={{ marginLeft: marginRatio,marginRight: marginRatio,marginBottom: '10px'  }}>
                 <Message

@@ -112,7 +112,7 @@ export const Kics = defineDocumentType(() => ({
         );
         return headings;
       },
-    },    
+    },
   },
 }))
 
@@ -123,7 +123,34 @@ export const Ifrs = defineDocumentType(() => ({
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
-    description: { type: 'string', required: false }, 
+    description: { type: 'string', required: false },
+    date: { type: 'date', required: false},
+    tags: { type: 'list', of: { type: 'string' } },
+    lastmod: { type: 'date' },
+    draft: { type: 'boolean' },
+    summary: { type: 'string' },
+    images: { type: 'list', of: { type: 'string' } },
+    authors: { type: 'list', of: { type: 'string' } },
+    layout: { type: 'string' },
+    bibliography: { type: 'string' },
+    canonicalUrl: { type: 'string' },
+  },
+  computedFields: {
+    url: {
+      type: 'string',
+      // resolve: (doc) => `${doc._raw.flattenedPath}`,
+      resolve: (doc) => `${doc._raw.sourceFileName.replace('.mdx','')}`,
+    },
+  },
+}))
+
+export const Fs = defineDocumentType(() => ({
+  name: 'Fs',
+  filePathPattern: 'fs/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    description: { type: 'string', required: false },
     date: { type: 'date', required: false},
     tags: { type: 'list', of: { type: 'string' } },
     lastmod: { type: 'date' },
@@ -146,7 +173,7 @@ export const Ifrs = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'docs',
-  documentTypes: [Post , Kics, Ifrs],
+  documentTypes: [Post , Kics, Ifrs, Fs],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
