@@ -20,7 +20,7 @@ Basel II에 따른 운영리스크 산출방법으로 기초지표법(BIA; The B
 ### (1) 기초지표법(Basic Indicator Approach)
 기초지표법(BIA)은 은행 전체의 운영규모를 대표하는 단일 지표(총이익)를 설정하고 이 지표의 일정비율을 운영리스크 소요자기자본으로 산출하는 방식이다. 이 방식은 국제적인 영업을 수행하는 은행(Internationally Active Banks)과 운영리스크 익스포져가 큰 은행을 제외한 모든 은행이 사용할 수 있으나 감독당국은 개별은행의 자산규모 및 리스크 특성(risk profile) 등을 감안하여 기초지표법 이용을 제한할 수 있다.
 
-<Math>
+<Card>
 <center>
 $K_{BIA} = \dfrac{\sum (GI_{1 \cdots n} \times \alpha)}{n}$
 </center>
@@ -28,7 +28,7 @@ $K_{BIA} = \dfrac{\sum (GI_{1 \cdots n} \times \alpha)}{n}$
 - $GI$ : 직전 3년간 연간 총이익(gross income) 중 양수인 금액
 - $n$ : 직전 3년간 연간 총이익(gross income)이 양수인 횟수
 - $\alpha$ : 일정비율(15%)
-</Math>
+</Card>
 
 바젤위원회는 총이익(gross income)을 기초지표법의 익스포져 지표로 제시하고 있으며, 소요자기자본 산출에 있어서 직전 3년간 연간 총이익 중 양수의 금액만을 고려함으로써 음수 또는 영(零)의 총이익 금액으로 인한 소요자기자본의 왜곡현상을 해결하려고 하고 있다.
 
@@ -39,7 +39,7 @@ $K_{BIA} = \dfrac{\sum (GI_{1 \cdots n} \times \alpha)}{n}$
 ### (2) 운영표준방법(The Standardized Approach)
 운영표준방법(TSA)은 은행의 영업활동을 8개 영역으로 나누고 각 영업영역에 대해 운영 규모를 대표할 수 있는 단일 지표(총이익)를 설정하고 동 지표의 일정비율을 운영리스크 소요자기자본으로 산출하는 방식이다.
 
-<Math>
+<Card>
 **총이익 기준**
 <center>
 $K_{TSA} = \dfrac{\displaystyle\sum_{years 1 \sim 3} max[\sum GI_{1-8} \times \beta_{1-8},0]}{3}$
@@ -47,7 +47,7 @@ $K_{TSA} = \dfrac{\displaystyle\sum_{years 1 \sim 3} max[\sum GI_{1-8} \times \b
 - $K_{TSA}$ : 운영표준방법에 의한 운영리스크 소요자기자본
 - $GI_{1-8}$ : 8개 영업영역별 연간 총이익 (2개 연도 이상 음수일 경우에는 해당 연도값을 0으로 처리)
 - $\beta_{1-8}$ : 8개 영업영역에 적용되는 일정비율
-</Math>
+</Card>
 
 <CenterImg src ="/fs/3580_1.png" />
 
@@ -78,18 +78,20 @@ $K_{TSA} = \dfrac{\displaystyle\sum_{years 1 \sim 3} max[\sum GI_{1-8} \times \b
 
 <CenterImg src ="/fs/3580_2.png" width ="600" />
 
-<Math>
+<Card>
 <center>
 $ORC(운영리스크) = BIC(영업지수요소) \times ILM(내부손실승수)$
 </center>
-<br/>
-- $BIC = BI$(영업지수, Business Indicator) $\times a_i$(계수)
+<SCard>
+$BIC = BI$(영업지수, Business Indicator) $\times a_i$(계수)
   - $BI = ILDC(이자요소) + SC(서비스요소) + FC(금융거래요소)$
     - $ILDC = Max[|이자수익-이자비용|, 이자수익자산×2.25\%] + 배당수익$
     - $SC = Max[기타영업수익, 기타영업비용] + Max[수수료수익, 수수료비용]$
     - $FC = |트레이딩계정손익| + |은행계정손익|$
   - $a_i$ :은행의 영업지수 구간에 따라 설정된 계수
   <br/>
-- $ILM = ln[ e - 1 + (\dfrac{LC}{BIC})^{0.8}]$
-  - $LC = 과거 10년 연평균 운영리스크 손실금액 x 15\%$
-</Math>
+
+$ILM = ln[ e - 1 + (\dfrac{LC}{BIC})^{0.8}]$
+  - $LC = 과거 10년 연평균 운영리스크 손실금액 \times 15\%$
+</SCard>
+</Card>
