@@ -740,10 +740,10 @@ TVOG는 옵션 및 보증의 만기가 길수록, 그리고 옵션행사 또는 
   <Accordion multiple activeIndex={[]}>
   <AccordionTab header="Log Normal 모형 해석">
   > 참고자료 : `201103 보험개발원 자산시나리오 산출보고서`
-  
+
   $dS = \mu S dt + \sigma S dz$
   - 주가 $S$는 순간적인 변화가 $\mu S$ 이고 순간적인 변동성이 $\sigma S$인 Ito Process를 따름.
-  - $z$는 주가 변화의 불확실성을 반영하며 Wiener Process를 따름 (즉, $z$는 아주 작은 간격 $\Delta t$ 기간동안에 $\Delta z$ 만틈 변함을 의미)
+  - $z$는 주가 변화의 불확실성을 반영하며 Wiener Process를 따름 (즉, $z$는 아주 작은 간격 $\Delta t$ 기간동안에 $\Delta z$ 만큼 변함을 의미)
   - $z$가 Wiener Process를 따르므로
     - $\Delta z = \epsilon \sqrt{\Delta t} , \epsilon \thicksim N(0,1)$
     - 서로 다른 $\Delta t$ 기간동안 $\Delta z$의 값은 독립임 (시계열적으로 독립) (즉, $z$는 Markov process를 따름)
