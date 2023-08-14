@@ -39,6 +39,9 @@ export default function OverlayDemo(prop) {
 // OverlayPanel : 마우스가 hover될때 표시되는 내용도 용도에 따라 다르기 때문에 style을 다르게 구분함.
 // {aaa.LEVEL3 !== undefined ? ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.LEVEL3 + ' > ' + aaa.desc)
                                      // : ( aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + ' > ' + aaa.desc)}
+// aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
+//textDecoration: aaa.url ? 'none' : 'underline' }}
+
 
     return (
         <>
@@ -48,13 +51,15 @@ export default function OverlayDemo(prop) {
                     label= {label} style ={{padding : aaa.url ?'0px 5px' : '0px 0px',
                                            fontStyle: aaa.url ? 'normal' : 'italic',
                                            fontSize: '1.0em',
-                                           color: aaa.url ?  '' : '#555555' }}
+                                           color: aaa.url ?  '#555555' : '#555555',
+                                           textDecoration: aaa.url ? 'none' : 'none' }}
                     onMouseEnter={(e) => op.current.toggle(e)} onMouseLeave ={(e) => op.current.toggle(e)}
                 />
             </a>
             <OverlayPanel ref={op} style={{ fontSize: '0.95em' , width: '35%', minWidth: '400px', margin: '0 auto'}}>
-               {aaa.LEVEL1 ? (
-                              aaa.LEVEL1 + ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 !== undefined ? ' > ' + aaa.LEVEL3 + ' > ' : ' > ') + aaa.desc
+               {aaa.url ? (
+                              aaa.LEVEL1 + (aaa.LEVEL2 ? ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 ? ' > ' + aaa.LEVEL3 + ' > ' : '') : '') + aaa.desc
+
                              ) : ( aaa.desc )}
 
             </OverlayPanel>
