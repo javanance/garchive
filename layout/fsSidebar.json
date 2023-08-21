@@ -155,7 +155,7 @@
      {
           "label": "참고자료",
           "items": [
-                 { "label": "///",     "icon": "pi pi-fw pi-paperclip", "to": "/fs/intro" }
+                 { "label": "Reference",     "icon": "pi pi-fw pi-paperclip", "to": "/fs/ref" }
             ]
      }
 

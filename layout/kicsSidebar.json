@@ -128,6 +128,7 @@
           "items": [
                  { "label": "업무보고서",     "icon": "pi pi-fw pi-paperclip", "to": "/kics/rptlist" }
                 ,{ "label": "부채평가 할인율", "icon": "pi pi-fw pi-paperclip", "to": "/kics/revisionDcnt" }
+                ,{ "label": "Reference", "icon": "pi pi-fw pi-paperclip", "to": "/kics/ref" }
             ]
      }
 
