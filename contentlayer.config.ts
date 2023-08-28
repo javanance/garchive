@@ -141,6 +141,33 @@ export const Ifrs = defineDocumentType(() => ({
       // resolve: (doc) => `${doc._raw.flattenedPath}`,
       resolve: (doc) => `${doc._raw.sourceFileName.replace('.mdx','')}`,
     },
+
+        headings: {
+          type: "json",
+          resolve: async (doc) => {
+            // const headingsRegex = /\n(?<flag>#{1,6})\s+(?<content>.+)/g;
+            // const headings = Array.from(doc.body.raw.matchAll(headingsRegex))
+            const url = doc.url;
+            const regXHeader    = /\n(?<flag>#{1,6})\s+(?<content>.+)/g;
+            const slugger = new GithubSlugger()
+            const headings = Array.from(doc.body.raw.matchAll(regXHeader)).map(
+              ({ groups }) => {
+                const flag = groups?.flag;
+                const content = groups?.content;
+                return {
+                  level: flag?.length == 1 ? "one"
+                  : flag?.length == 2 ? "two"
+                  : flag?.length == 3 ? "three"
+                  : "four",
+                  text: content,
+                  slug: content ?  slugger.slug(content) : undefined
+                };
+              }
+            );
+            return headings;
+          },
+        },
+
   },
 }))
 
@@ -168,6 +195,32 @@ export const Fs = defineDocumentType(() => ({
       // resolve: (doc) => `${doc._raw.flattenedPath}`,
       resolve: (doc) => `${doc._raw.sourceFileName.replace('.mdx','')}`,
     },
+
+        headings: {
+          type: "json",
+          resolve: async (doc) => {
+            // const headingsRegex = /\n(?<flag>#{1,6})\s+(?<content>.+)/g;
+            // const headings = Array.from(doc.body.raw.matchAll(headingsRegex))
+            const url = doc.url;
+            const regXHeader    = /\n(?<flag>#{1,6})\s+(?<content>.+)/g;
+            const slugger = new GithubSlugger()
+            const headings = Array.from(doc.body.raw.matchAll(regXHeader)).map(
+              ({ groups }) => {
+                const flag = groups?.flag;
+                const content = groups?.content;
+                return {
+                  level: flag?.length == 1 ? "one"
+                  : flag?.length == 2 ? "two"
+                  : flag?.length == 3 ? "three"
+                  : "four",
+                  text: content,
+                  slug: content ?  slugger.slug(content) : undefined
+                };
+              }
+            );
+            return headings;
+          },
+        },
   },
 }))
 
