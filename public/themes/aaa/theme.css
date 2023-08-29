@@ -9,7 +9,7 @@
   --text-color-secondary:#708da9;
   --primary-color:#7254f3;
   --primary-color-text:#ffffff;
-  --font-family:Lato, Helvetica, sans-serif;
+  --font-family:SUIT, Helvetica, sans-serif;
   --surface-0: #ffffff;
   --surface-50: #f1f4f6;
   --surface-100: #e2e8ee;
@@ -3964,14 +3964,20 @@
   height: 2px;
 }
 
+.p-accordion {
+  margin-bottom: 2rem;
+}
+
 .p-accordion .p-accordion-header .p-accordion-header-link {
-  padding: 1.25rem;
+  margin-top: 5px;
+  padding: 0.5rem; /*1.25rem;*/
   border: 1px solid #dfe7ef;
   color: #708da9;
   background: #eff3f8;
   font-weight: 700;
   border-radius: 6px;
   transition: box-shadow 0.2s;
+  font-style: italic;
 }
 .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
   margin-right: 0.5rem;
@@ -4014,29 +4020,30 @@
 }
 
 .p-card {
-  background: #ffffff;
+  background: transparent; /* #ffffff;*/
   color: #043d75;
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border: 0.3px ridge #e0e7ee;  /*box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12); 그림자 대신 실선으로 처리 */
   border-radius: 6px;
 }
 .p-card .p-card-body {
-  padding: 1.25rem;
+  padding: 1rem; /* 1.25rem*/
+  margin: 0.2rem;
 }
 .p-card .p-card-title {
-  font-size: 1.5rem;
+  font-size: 1.1rem; /*1.5rem; */
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 .p-card .p-card-subtitle {
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   color: #708da9;
 }
 .p-card .p-card-content {
-  padding: 1.25rem 0;
+  padding: 0.5rem 0.5rem; /*1.25rem 0;*/
 }
 .p-card .p-card-footer {
-  padding: 1.25rem 0 0 0;
+  padding: 0 0 0 0; /*1.25rem 0 0 0; */
 }
 
 .p-fieldset {
@@ -4044,9 +4051,10 @@
   background: #ffffff;
   color: #043d75;
   border-radius: 6px;
+  margin-bottom: 5px;
 }
 .p-fieldset .p-fieldset-legend {
-  padding: 1.25rem;
+  padding: 0.5rem; /*1.25rem;*/
   border: 1px solid #dfe7ef;
   color: #708da9;
   background: #eff3f8;
@@ -4058,7 +4066,7 @@
   transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
-  padding: 1.25rem;
+  padding: 0.5rem; /*1.25rem;*/
   color: #708da9;
   border-radius: 6px;
   transition: box-shadow 0.2s;
@@ -4180,17 +4188,22 @@
   background: #ffffff;
   border: 1px solid #dfe7ef;
   border-width: 0 0 2px 0;
+  padding-inline-start: 0; /*tabview에서 첫번째 탭이 뜨는것 처리*/
 }
+
 .p-tabview .p-tabview-nav li {
   margin-right: 0;
+  margin-left: 0.4rem; /*탭 제목 간 간격*/
+  margin-bottom: 0;
 }
+
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
-  border: solid #dfe7ef;
+  border: solid #708da9;  /*#dfe7ef*/
   border-width: 0 0 2px 0;
   border-color: transparent transparent #dfe7ef transparent;
   background: #ffffff;
   color: #708da9;
-  padding: 1.25rem;
+  padding: 0.5rem; /*1.25rem;*/
   font-weight: 700;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
@@ -4208,9 +4221,9 @@
   color: #708da9;
 }
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-  background: #ffffff;
-  border-color: #7254f3;
-  color: #7254f3;
+  background: #f0f3f7; /*#ffffff*/
+  border-color: #2e5075; /*#7254f3 선택된 색깔 변경*/
+  color: #2e5075; /*#7254f3 선택된 색깔 변경*/
 }
 .p-tabview .p-tabview-close {
   margin-left: 0.5rem;
@@ -4229,8 +4242,8 @@
 }
 .p-tabview .p-tabview-panels {
   background: #ffffff;
-  padding: 1.25rem;
-  border: 0 none;
+  padding: 0.7rem; /* 1.25rem;*/
+  border: 0.3px ridge #e0e7ee; /*0 none;*/
   color: #043d75;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -5529,10 +5542,10 @@
   color: #696cff;
 }
 .p-inline-message.p-inline-message-success {
-  background: #e4f8f0;
-  border: solid #1ea97c;
+  background: #f0f3f7; /*#e4f8f0;*/
+  border: solid #708da9; /*#1ea97c*/
   border-width: 0px;
-  color: #1ea97c;
+  color: #708da9; /*#1ea97c*/
 }
 .p-inline-message.p-inline-message-success .p-inline-message-icon {
   color: #1ea97c;
