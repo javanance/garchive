@@ -399,7 +399,7 @@
 
 .markdown-body p {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1rem; /*10px;*/
 }
 
 .markdown-body blockquote {
@@ -409,16 +409,37 @@
   border-left: .25em solid var(--color-border-default);
 }
 
-.markdown-body ul,
+.markdown-body li {
+  margin-bottom: 0.7rem;
+}
+
 .markdown-body ol {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 2em;
+  padding: 0;
+}
+.markdown-body ul,
+.markdown-body dl {
+  margin-top: 0;
+  margin-bottom: 0;
+/* padding-left: 2em; 목록의 들여쓰기 구간이 너무 커서 패딩 제거 */
+  padding: 0;
+  list-style: none ; /* 순서없는 리스트 불릿제거 : none, disc, circle, square, decimal, lower-roman 등..*/
 }
 
+/* 중첩된 리스트간 간격조정*/
 .markdown-body ol ol,
 .markdown-body ul ol {
   list-style-type: lower-roman;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.markdown-body ol ul,
+.markdown-body ul ul {
+  list-style-type: none;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .markdown-body ul ul ol,
@@ -426,6 +447,8 @@
 .markdown-body ol ul ol,
 .markdown-body ol ol ol {
   list-style-type: lower-alpha;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .markdown-body dd {
@@ -502,14 +525,14 @@
 
 .markdown-body p,
 .markdown-body blockquote,
-.markdown-body ul,
+/*.markdown-body ul,
 .markdown-body ol,
-.markdown-body dl,
+.markdown-body dl, */
 .markdown-body table,
 .markdown-body pre,
 .markdown-body details {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin-top: 5px;
+/*  margin-bottom: 16px;*/
 }
 
 .markdown-body blockquote>:first-child {
