@@ -42,13 +42,13 @@ const AppTopbar = forwardRef<AppTopbarRef>((props, ref) => {
         //         router.push('/posts/click-me');
         //     }
         // }
-       ,{ label: "IFRS17", icon: "pi pi-fw pi-circle-fill", command: () => {router.push('/ifrs/100');}}
+       ,{ label: "IFRS17", icon: "pi pi-fw pi-circle-fill", command: () => {router.push('/ifrs/intro');}}
        ,{ label: "KICS", icon: "pi pi-fw pi-circle-fill",   command: () => { router.push('/kics/intro');}}
        ,{ label: "FS", icon: "pi pi-fw pi-circle-fill",   command: () => { router.push('/fs/intro');}}
         ,{
             label: "Archives",
             items: [
-                 { label: "IFRS17", icon: "pi pi-fw pi-id-card", command: () => {router.push('/ifrs/100');}}
+                 { label: "IFRS17", icon: "pi pi-fw pi-id-card", command: () => {router.push('/ifrs/intro');}}
                 ,{ label: "KICS", icon: "pi pi-fw pi-book",   command: () => { router.push('/kics/intro');}}
             ]
         }
