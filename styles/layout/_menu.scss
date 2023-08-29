@@ -27,12 +27,13 @@
 
     .layout-root-menuitem {
         >.layout-menuitem-root-text {
-            font-size: .857rem;
+            font-size: .75rem; /*.857rem;*/
             text-transform: uppercase;
             font-weight: 700;
             color: var(--surface-900);
             margin: .75rem 0;
         }
+        font-size: 0.95rem;
 
         > a {
             display: none;
@@ -44,6 +45,7 @@
             .layout-submenu-toggler {
                 transform: rotate(-180deg);
             }
+            font-weight: bolder;
         }
 
         > ul {
@@ -110,6 +112,7 @@
                 li {
                     a {
                         margin-left: 2rem;
+                        padding: 0.5rem 0.5rem;
                     }
 
                     li {
