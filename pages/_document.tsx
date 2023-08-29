@@ -12,11 +12,14 @@ export default class MyDocument extends Document {
         return { ...initialProps };
     }
 
+    // testtt 
+    // lara-light-indigo
+    // soho-light
     render() {
         return (
             <Html lang="en">
                 <Head>
-                    <link id="theme-css" href={`/themes/lara-light-indigo/theme.css`} rel="stylesheet"></link>
+                    <link id="theme-css" href={`/themes/testtt/theme.css`} rel="stylesheet"></link>
                 </Head>
                 <body>
                     <Main />
