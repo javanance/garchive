@@ -50,13 +50,13 @@ export default function OverlayDemo(prop) {
                 <Button severity="warning"  link
                     label= {label} style ={{padding : aaa.url ?'0px 5px' : '0px 0px',
                                            fontStyle: aaa.url ? 'normal' : 'italic',
-                                           fontSize: '1.0em',
-                                           color: aaa.url ?  '#555555' : '#555555',
+                                           fontSize: '1em',
+                                           color: aaa.url ?  '#2e5075' : '#2e5075', /*  555555*/
                                            textDecoration: aaa.url ? 'none' : 'none' }}
                     onMouseEnter={(e) => op.current.toggle(e)} onMouseLeave ={(e) => op.current.toggle(e)}
                 />
             </a>
-            <OverlayPanel ref={op} style={{ fontSize: '0.95em' , width: '35%', minWidth: '400px', margin: '0 auto'}}>
+            <OverlayPanel ref={op} style={{ fontSize: 'small' , width: '35%', minWidth: '400px', margin: '0 auto'}}>
                {aaa.url ? (
                               aaa.LEVEL1 + (aaa.LEVEL2 ? ' > ' + aaa.LEVEL2 + (aaa.LEVEL3 ? ' > ' + aaa.LEVEL3 + ' > ' : '') : '') + aaa.desc
 
