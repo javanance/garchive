@@ -3965,7 +3965,7 @@
 }
 
 .p-accordion {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
@@ -5013,6 +5013,7 @@
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
   color: #043d75;
+  font-weight: bolder;
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
   color: #708da9;
@@ -5531,6 +5532,7 @@
   padding: 0.75rem 0.75rem;
   margin: 0;
   border-radius: 6px;
+  margin-bottom: 1rem;
 }
 .p-inline-message.p-inline-message-info {
   background: #e9e9ff;
