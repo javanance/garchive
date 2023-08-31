@@ -414,7 +414,7 @@
 .markdown-body ol {
   margin-top: 0;
   margin-bottom: 0;
-  /*padding-left: 2em; 리스트 마진 너무 큼 !! */ 
+  /*padding-left: 2em; 리스트 마진 너무 큼 !! */
 }
 
 .markdown-body ol ol,
@@ -506,26 +506,35 @@
   margin-bottom: 1rem; /* 문단 하단의 마진 */
 }
 
-.markdown-body ul,
+.markdown-body ul {
+  list-style: disc;
+}
+
 .markdown-body dl {
   list-style: none; /* list marker(불릿) 제거 none, disc, circle, square, decimal, lower-roman */
   padding: 0; /* 패딩 0 */
 }
 
 .markdown-body ol {
+  list-style: decimal;
   padding: 0; /* 패딩 0 */
 }
 
 .markdown-body li {
-  margin-bottom: 0.7rem; 
+  margin-bottom: 0.7rem;
 }
 
 /*중첩된 목록간 간격*/
 .markdown-body ul ul,
-.markdown-body ul ol,
-.markdown-body ol ol,
 .markdown-body ol ul {
   margin-top: 0.7rem;
+  list-style: none;
+}
+
+.markdown-body ul ol,
+.markdown-body ol ol {
+  margin-top: 0.7rem;
+  list-style: none;
   /* margin-bottom: 0.7rem; */
 }
 
