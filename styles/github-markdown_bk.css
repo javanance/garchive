@@ -424,7 +424,7 @@
   margin-bottom: 0;
 /* padding-left: 2em; 목록의 들여쓰기 구간이 너무 커서 패딩 제거 */
   padding: 0;
-  list-style: none ; /* 순서없는 리스트 불릿제거 : none, disc, circle, square, decimal, lower-roman 등..*/
+  list-style: disc; /* 순서없는 리스트 불릿제거 : none, disc, circle, square, decimal, lower-roman 등..*/
 }
 
 /* 중첩된 리스트간 간격조정*/

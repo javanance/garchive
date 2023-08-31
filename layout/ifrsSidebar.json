@@ -6,7 +6,7 @@
               {
                   "label": "intro",
                   "icon": "pi pi-fw pi-info-circle",
-                  "to": "/ifrs/000"
+                  "to": "/ifrs/intro"
               }
           ]
       },
