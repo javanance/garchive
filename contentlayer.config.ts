@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm'
 import GithubSlugger from "github-slugger"
 import remarkFootnotes from 'remark-footnotes'
 import remarkMath from 'remark-math'
+import {remarkHeadingId} from 'remark-custom-heading-id';
 
 import {
   remarkExtractFrontmatter,
@@ -230,20 +231,13 @@ export default makeSource({
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
-      // remarkExtractFrontmatter,
       remarkGfm,
-      // remarkCodeTitles,
-      // [remarkFootnotes, { inlineNotes: true }],
       remarkMath,
-      // remarkImgToJsx,
+      remarkHeadingId,
     ],
     rehypePlugins: [
       rehypeSlug,
-      // rehypeAutolinkHeadings,
       rehypeKatex,
-      // [rehypeCitation, { path: path.join(root, 'docs') }],
-      // [rehypePrismPlus, { ignoreMissing: true }],
-      // rehypePresetMinify,
     ],
   },
 })
