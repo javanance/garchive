@@ -526,7 +526,7 @@
 .markdown-body ol ol,
 .markdown-body ol ul {
   margin-top: 0.7rem;
-  margin-bottom: 0.7rem;
+  /* margin-bottom: 0.7rem; */
 }
 
 .markdown-body blockquote,
