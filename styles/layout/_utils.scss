@@ -25,3 +25,27 @@
         top: 100px;
     }
 }
+
+/* heading 앵커 */
+
+.icon::before {
+    content: "§"; 
+}
+.icon-link {
+    display: inline-block; 
+    font-size: 1.5rem; /* 아이콘 크기 조정  */
+    margin-left: -0.8em; /* 아이콘과 텍스트 간격 조정 */
+    padding-right: 0.2em;
+    opacity: 0; /* 초기에는 투명하게 설정 */
+    transition: opacity 0.3s ease; /* 부드러운 투명도 변화를 위한 전환 효과 추가 */
+  }
+  
+  /* 앵커에 호버 효과 적용 */
+
+    h2:hover .icon-link,
+    h3:hover .icon-link,
+    h4:hover .icon-link,
+    h5:hover .icon-link {
+    color: #708da9;
+    opacity: 1; /* 호버 시 투명도를 1로 설정하여 보이게 함 */
+  }
