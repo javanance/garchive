@@ -150,7 +150,7 @@ export const Ifrs = defineDocumentType(() => ({
             // const headings = Array.from(doc.body.raw.matchAll(headingsRegex))
             const url = doc.url;
             const regXHeader    = /\n(?<flag>#{1,6})\s+(?<content>.+)/g;
-            
+
             const slugger = new GithubSlugger()
             const headings = Array.from(doc.body.raw.matchAll(regXHeader)).map(
               ({ groups }) => {
@@ -168,7 +168,7 @@ export const Ifrs = defineDocumentType(() => ({
             );
             return headings;
           },
-        },        
+        },
 
   },
 }))

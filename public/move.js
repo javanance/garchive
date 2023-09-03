@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const anchors = document.querySelectorAll('a[href^="#"]');
 
-  /* # 으로 화면 내에서 이동 시 top bar크기만큼 추가로 내리기 */ 
+  /* # 으로 화면 내에서 이동 시 top bar크기만큼 추가로 내리기 */
   anchors.forEach(anchor => {
     anchor.addEventListener("click", function(e) {
       e.preventDefault();
@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
       if (targetElement) {
         const topOffset = targetElement.getBoundingClientRect().top + window.scrollY;
-        const navbarHeight = document.querySelector(".navbar")?.offsetHeight || 0; // Navbar의 높이를 가져오고 없으면 0으로 설정
+        const navbarHeight = document.querySelector(".layout-topbar")?.offsetHeight || 0; // Navbar의 높이를 가져오고 없으면 0으로 설정
 
         window.scrollTo({
-          top: topOffset - navbarHeight - 5 * parseFloat(getComputedStyle(document.documentElement).fontSize), // 5rem를 픽셀로 변환해서 뺀 값
+          top: topOffset - navbarHeight,
           behavior: "smooth"
         });
       }
