@@ -1127,11 +1127,11 @@
 }
 
 div[data-level="one"] {
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 div[data-level="two"] {
-  padding-top: 4px;
+  padding-top: 8px;
   padding-left: 8px;
 }
 div[data-level="three"] {
@@ -1143,23 +1143,23 @@ div[data-level="four"] {
 
 a[data-level="one"] {
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color : gray;
 }
 
 a[data-level="two"] {
-  line-height: 2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-top: 4px;
   padding-left: 8px;
 }
 a[data-level="three"] {
-  line-height: 2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-left: 16px;
 }
 a[data-level="four"] {
-  line-height: 2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-left: 24px;
 }
