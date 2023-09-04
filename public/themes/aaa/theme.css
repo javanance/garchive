@@ -58,42 +58,42 @@
   font-family: 'SUIT';
   font-style: normal;
   font-weight: 300;
-  src: url(./fonts/SUIT-ExtraLight.woff2) format('woff2'),
+  src: url(./fonts/SUIT-ExtraLight.woff2) format('woff2'), /*ExtraLight*/
        url(./fonts/SUIT-ExtraLight.otf) format('opentype');
 }
 @font-face {
   font-family: 'SUIT';
   font-style: normal;
   font-weight: 300;
-  src: url(./fonts/SUIT-Light.woff2) format('woff2'),
+  src: url(./fonts/SUIT-Light.woff2) format('woff2'), /*Light*/
        url(./fonts/SUIT-Light.otf) format('opentype');
 }
 @font-face {
    font-family: 'SUIT';
    font-style: normal;
    font-weight: 400;
-   src: url(./fonts/SUIT-Regular.woff2) format('woff2'),
+   src: url(./fonts/SUIT-Regular.woff2) format('woff2'), /*Regular*/
         url(./fonts/SUIT-Regular.otf) format('opentype');
  }
 @font-face {
    font-family: 'SUIT';
    font-style: normal;
    font-weight: 500;
-   src: url(../fonts/SUIT-Medium.woff2) format('woff2'),
+   src: url(../fonts/SUIT-Medium.woff2) format('woff2'), /*Medium*/
         url(../fonts/SUIT-Medium.otf) format('opentype');
  }
 @font-face {
    font-family: 'SUIT';
    font-style: normal;
    font-weight: 700;
-   src: url(./fonts/SUIT-Bold.woff2) format('woff2'),
+   src: url(./fonts/SUIT-Bold.woff2) format('woff2'), /*Bold*/
         url(./fonts/SUIT-Bold.otf) format('opentype');
  }
  @font-face {
   font-family: 'SUIT';
   font-style: normal;
   font-weight: 800;
-  src: url(./fonts/SUIT-ExtraBold.woff2) format('woff2'),
+  src: url(./fonts/SUIT-ExtraBold.woff2) format('woff2'), /*ExtraBold*/
        url(./fonts/SUIT-ExtraBold.otf) format('opentype');
 }
 @font-face {
@@ -4025,7 +4025,7 @@
   padding: 1.25rem;
   border: 1px solid #dfe7ef;
   background: #ffffff;
-  color: #043d75;
+  color: #161c22; /*043d75*/
   border-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -4066,7 +4066,7 @@
 .p-fieldset {
   border: 1px solid #dfe7ef;
   background: #ffffff;
-  color: #043d75;
+  color: #161c22; /*043d75*/
   border-radius: 6px;
   margin-bottom: 5px;
 }
@@ -4202,7 +4202,7 @@
 }
 
 .p-tabview .p-tabview-nav {
-  background: #ffffff;
+  background: transparent; /* #ffffff */
   border: 1px solid #dfe7ef;
   border-width: 0 0 2px 0;
   padding-inline-start: 0; /*tabview에서 첫번째 탭이 뜨는것 처리*/
@@ -4258,7 +4258,7 @@
   box-shadow: inset 0 0 0 1px #e0e7ee; /* #c7bbfa */
 }
 .p-tabview .p-tabview-panels {
-  background: #ffffff;
+  background: transparent ; /* #ffffff */
   padding: 0.7rem; /* 1.25rem;*/
   border: 0.3px ridge #e0e7ee; /*0 none;*/
   color: #043d75;
@@ -5564,7 +5564,7 @@
   background: #f0f3f7; /*#e4f8f0;*/
   border: solid #708da9; /*#1ea97c*/
   border-width: 0px;
-  color: #708da9; /*#1ea97c*/
+  color: #2e5075; /*#1ea97c  708da9  2e5075*/
 }
 .p-inline-message.p-inline-message-success .p-inline-message-icon {
   color: #1ea97c;

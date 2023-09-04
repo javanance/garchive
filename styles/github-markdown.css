@@ -1143,23 +1143,24 @@ div[data-level="four"] {
 
 a[data-level="one"] {
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color : gray;
 }
 
 a[data-level="two"] {
   line-height: 1.2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-top: 16px;
   padding-left: 8px;
 }
 a[data-level="three"] {
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-left: 16px;
 }
 a[data-level="four"] {
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   color : gray;
   padding-left: 24px;
 }
