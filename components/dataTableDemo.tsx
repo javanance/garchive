@@ -1,10 +1,11 @@
-
+'use client'
 import React, { Children, useState } from 'react';
 import { DataTable} from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import useSWR from 'swr';
+import JSON from '@/public/data/kics_table.json'
 
-const fetcher = (...param) => fetch(...param).then((res) => res.json());
+// const fetcher = (...param) => fetch(...param).then((res) => res.json());
 
 
 // 원본
@@ -131,7 +132,8 @@ const fetcher = (...param) => fetch(...param).then((res) => res.json());
 export function DataTableDemo() {
   // 데이터 가져오기
   const { data, error } = useSWR('/data/kics_table.json', fetcher);
-  if (error) return <div>Failed to load data</div>;
+  // const {model} = JSON;
+  // if (error) return <div>Failed to load data</div>;
   if (!data) return <div>Loading data...</div>;
 
   // 해당하는 데이터 가져오기
