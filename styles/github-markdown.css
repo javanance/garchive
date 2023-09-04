@@ -101,7 +101,7 @@
   color: var(--color-fg-default);
   background-color: var(--color-canvas-default);
   font-family: SUIT,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 16px; /*16px -> 15px*/
+  font-size: 14px; /*16px -> 15px*/
   line-height: 1.5;
   word-wrap: break-word;
   /* width : 100%; */
@@ -1131,7 +1131,7 @@ div[data-level="one"] {
 }
 
 div[data-level="two"] {
-  padding-top: 8px;
+  padding-top: 12px;
   padding-left: 8px;
 }
 div[data-level="three"] {
@@ -1143,24 +1143,23 @@ div[data-level="four"] {
 
 a[data-level="one"] {
   font-weight: 700;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   color : gray;
 }
 
 a[data-level="two"] {
   line-height: 1.2rem;
-  line-height: 1.5rem;
   color : gray;
   padding-top: 16px;
   padding-left: 8px;
 }
 a[data-level="three"] {
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   color : gray;
   padding-left: 16px;
 }
 a[data-level="four"] {
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   color : gray;
   padding-left: 24px;
 }

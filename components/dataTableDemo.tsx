@@ -131,13 +131,13 @@ import JSON from '@/public/data/kics_table.json'
 //t4 동적으로 가져오기 & row grouping
 export function DataTableDemo() {
   // 데이터 가져오기
-  const { data, error } = useSWR('/data/kics_table.json', fetcher);
-  // const {model} = JSON;
+  // const { data, error } = useSWR('/data/kics_table.json', fetcher);
   // if (error) return <div>Failed to load data</div>;
-  if (!data) return <div>Loading data...</div>;
+  // const {data} = JSON;
+  // if (!data) return <div>Loading data...</div>;
 
   // 해당하는 데이터 가져오기
-  const t4Data = data.t4;
+  // const t4Data = data.t4;
 
   // 컬럼 정보 정의
   const columns = [
@@ -149,14 +149,14 @@ export function DataTableDemo() {
 
   return (
     <>
-      <center><h4>&lt;표4&gt; 종속회사 및 관계회사의 요구자본 산출방법</h4></center>
+      {/* <center><h4>&lt;표4&gt; 종속회사 및 관계회사의 요구자본 산출방법</h4></center>
       <div className="surface-0 flex justify-content-center">
         <DataTable value={t4Data} size="small" rowGroupMode="rowspan" groupRowsBy="구분1" >
             {columns.map((col, i) => (
                 <Column key={col.field} field={col.field} header={col.header} />
             ))}
         </DataTable>
-      </div>
+      </div> */}
     </>
   );
 }
