@@ -101,13 +101,17 @@ export const Kics = defineDocumentType(() => ({
           ({ groups }) => {
             const flag = groups?.flag;
             const content = groups?.content;
+            const hid = content.match(/\{#(.*?)\}/);
+            const slug = hid ? slugger.slug(hid[1]) : slugger.slug(content);
             return {
               level: flag?.length == 1 ? "one"
               : flag?.length == 2 ? "two"
               : flag?.length == 3 ? "three"
               : "four",
-              text: content,
-              slug: content ?  slugger.slug(content) : undefined
+              // text: content,
+              // slug: content ?  slugger.slug(content) : undefined
+              text: content.replace(/\{#(.*?)\}/g, ''),
+              slug: slug 
             };
           }
         );
