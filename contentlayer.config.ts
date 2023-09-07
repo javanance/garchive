@@ -106,8 +106,8 @@ export const Kics = defineDocumentType(() => ({
             return {
               level: flag?.length == 1 ? "one"
               : flag?.length == 2 ? "two"
-              : flag?.length == 3 ? "three"
-              : "four",
+              // : flag?.length == 3 ? "three"
+              : "three",
               // text: content,
               // slug: content ?  slugger.slug(content) : undefined
               text: content.replace(/\{#(.*?)\}/g, ''),
