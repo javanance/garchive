@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
       const targetElement = document.getElementById(targetId);
 
       if (targetElement) {
-        const topOffset = targetElement.getBoundingClientRect().top + window.scrollY;
-        const navbarHeight = document.querySelector(".layout-topbar")?.offsetHeight || 0; // Navbar의 높이를 가져오고 없으면 0으로 설정
+        /* const topOffset = targetElement.getBoundingClientRect().top + window.scrollY; */
+        const topOffset = document.querySelector(targetElement).offsetTop;
+        const navbarHeight = document.querySelector(".layout-topbar")?.offsetHeight; //|| 0;// // Navbar의 높이를 가져오고 없으면 0으로 설정
 
         window.scrollTo({
           top: topOffset - navbarHeight,
