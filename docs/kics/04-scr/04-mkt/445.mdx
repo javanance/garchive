@@ -80,10 +80,10 @@ title: 5. 외환위험액
   = 외화 위험경감기법 계약의 명목금액 $\times$ 측정시점 환율의 $x\%$
   </center>
 
-  <SCard>
+  <Cmt>
   - $x = 2$ (위험경감기법의 계약만기가 1년 미만인 경우)
   - $x =1$ (위험경감기법의 계약만기가 1년 이상인 경우)
-  </SCard>
+  </Cmt>
   </Math>
 
   <Accordion multiple activeIndex={[]}>
@@ -109,8 +109,10 @@ title: 5. 외환위험액
 
 <Accordion multiple activeIndex={[]}>
 <AccordionTab header="외환위험액의 충격수준 도출 근거">
-각 통화 간 환율 충격수준은 ICS 기준*을 동일하게 적용
-<SubText> *USD 등 35개 통화 간 환율의 충격수준을 제시</SubText>
+각 통화 간 환율 충격수준은 ICS 기준$^{*}$을 동일하게 적용
+<Cmt>
+\* USD 등 35개 통화 간 환율의 충격수준을 제시
+</Cmt>
 
 ICS에서 시장데이터를 이용하여 주요 통화의 환율 변화에 대해 99.5% 신뢰수준 下에서의 손실률을 산출하였으며, K-ICS도 동일한 신뢰수준(99.5%)으로 리스크를 측정하므로 동일한 기준을 적용
 </AccordionTab>

@@ -139,54 +139,52 @@ const { fontSize = '1.0rem', width='100%',  borderWidth='0 0 0 6px', marginRatio
 }
 
 // 특정 영역 주석용 폰트사이즈 작게
-const SubText = ({ children }) => {
-  const [fontSize, setFontSize] = useState('1rem');
-  const contentStyle = {
-      margin: '0',
-      padding: '0',
-    };
-  useEffect(() => {setFontSize('0.8rem');}, []);
+// const SubText = ({ children }) => {
+//   const [fontSize, setFontSize] = useState('1rem');
+//   const contentStyle = {
+//       margin: '0',
+//       padding: '0',
+//     };
+//   useEffect(() => {setFontSize('0.8rem');}, []);
 
-  return (
-    <div style={{ fontSize }}>
-    <ul style={contentStyle}>
-      {children}
-    </ul>
-    </div>
-  );
-};
+//   return (
+//     <div style={{ fontSize }}>
+//     <ul style={contentStyle}>
+//       {children}
+//     </ul>
+//     </div>
+//   );
+// };
 
 
-// 수식에서 추가 설명용
-const SCard = (props) => {
+// comment
+const Cmt = (props) => {
   const { fontSize = '0.9rem' } = props;
 
-  const cardStyle = {
+  const divStyle = {
     fontSize,
-  //  background: '#ffffff', // 배경
     border: 'none',          // 테두리 없음
     padding: '0',
+    fontWeight: '300'
   };
 
   const contentStyle = {
   margin: '0',
-  padding: '0',
+  padding: '0'
 };
 
 return (
-  <Card {...props} style={cardStyle}>
-    <div style={contentStyle}>
-      <ul style={contentStyle}>
-        {props.children}
-      </ul>
-    </div>
-  </Card>
+  <div {...props} style={divStyle}>
+  <ul style={contentStyle}>
+    {props.children}
+  </ul>
+  </div>
 );
 };
 
 // default style 지정 이미지 : 가운데 정렬, 최대 사이즈 고정
 const CenterImg = (props) => {
-  const { src, width = 680, imageStyle = { display: 'block', margin: '0 auto' }, caption } = props;
+  const { src, width = 600, imageStyle = { display: 'block', margin: '0 auto' }, caption } = props;
 
   return (
     <div style={{ textAlign: 'center' }}>
@@ -196,4 +194,4 @@ const CenterImg = (props) => {
   );
 };
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, SubText, SCard, CenterImg, Chip};
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, Cmt, CenterImg, Chip};

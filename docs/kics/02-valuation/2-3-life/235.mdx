@@ -24,14 +24,14 @@ title: II.3-5. 재보험자산
  <center>
  $\displaystyle\sum_i^n (PD_i \times$ 부도시손실액$_i)$
  </center>
- <SCard>
+ <Cmt>
   - $i$ =  평가시점부터 만기까지의 각 시점.
   - $n$ =  만기
   - 부도확률 : $PD_i = PD \cdot (1-PD)^{i-1}$
   - $PD$ = 재보험 거래상대방의 12개월 내 부도확률
   - 부도시손실액$_i$ = $ \sum_i^n C_i \cdot$ (1-회수율)
   - $C_i$ = Max(CFin$_i$ - CFout$_i$, 0))
-</SCard>
+</Cmt>
  </Math>
 
 
@@ -92,12 +92,12 @@ title: II.3-5. 재보험자산
  <center>
   $CE_{조정전} - max($손실조정률(%) $\times CE_{조정전}, 0)$
  </center>
- <SCard>
+ <Cmt>
  - $CE_{조정전}$ : 손실조정 반영전 재보험자산의 장래 현금흐름 현가
  - 손실조정률(%) : $0.5 \times \dfrac{PD}{1-PD} \times$ 유효만기
  - $PD$ : 재보험 거래상대방의 부도확률
  - 유효만기 : $\dfrac {\sum_i i \times CF_i}{\sum_i CF_i}$
-</SCard>
+</Cmt>
 </Math>
 
 <Fieldset legend = "간편법을 이용한 손실조정 반영" toggleable>
@@ -115,14 +115,14 @@ title: II.3-5. 재보험자산
 
 <Accordion multiple activeIndex={[]}>
 <AccordionTab header="손실조정 간편법의 결론도출 근거">
-<SCard>
+<Cmt>
 ① 손실조정 전 재보험자산 현금흐름(회수가능 금액)을 아래와 같이 정의
 - $$CE_{조정전} = \displaystyle \sum_{t\le 1} \dfrac{CF_t}{(1+r)^t}$$
-<SCard>
+<Cmt>
   - $CE_{조정전}$ : 손실조정 반영전 재보험자산의 장래 현금흐름 현가
   - $CF_t$ : $t$연도 말에 회수 가능한 자산의 기초가 되는 예상 현금 흐름
   - $r$ : 무위험금리
-</SCard>
+</Cmt>
 ② 여기서 부도확률(PD, Probability of Default)와 회수율(RR, Recovery Rate)을 감안할 경우, 재보험자 부도로 인한 예상 손실금액(손실조정)은 다음과 같이 근사적으로 도출 가능
 
 손실조정 = $\fallingdotseq - \displaystyle \sum_{t\ge 1} \dfrac {(1-(1-PD)^t) \times (1-RR) \times CF_t}{(1+r)^t}$
@@ -153,9 +153,9 @@ $CE'_{조정전} = CE_{조정전} - (s-r) \times 유효만기 \times CE_{조정�
 
 $= CE_{조정전} - \dfrac{PD}{1-PD} \times 유효만기 \times CE_{조정전}$
 
-<SCard>
+<Cmt>
 - 유효만기 $= \dfrac{1}{CE_{조정전}} \cdot \dfrac{1}{1+r} \cdot \displaystyle \sum_{t \ge 1} \dfrac{t \times CF_t}{(1+r)^t}$
-</SCard>
+</Cmt>
 
 <br/>
 ⑤ 마지막으로, 유효만기 접근법에 따라 도출한 $CE'_{조정전}$을 ③의 손실조정 식에 적용하게 되면,
@@ -165,7 +165,7 @@ $= CE_{조정전} - \dfrac{PD}{1-PD} \times 유효만기 \times CE_{조정전}$
 $ = 손실조정률(\%) \times CE_{조정전}$
 
 이라는 결론 도출이 가능 (이 때, K-ICS 손실조정 간편법에 적용한 회수율은 50%이며, 음수 손실조정금액은 불인정)
-</SCard>
+</Cmt>
 </AccordionTab>
 </Accordion>
 

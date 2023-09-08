@@ -363,11 +363,40 @@
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
   font-weight: var(--base-text-weight-semibold, 600);
   line-height: 1.25;
 }
+
+.markdown-body h1,
+.markdown-body h2 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  margin-left: -24px; /*헤딩 내어쓰기*/
+}
+
+.markdown-body h3 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  margin-left: -18px; /*헤딩 내어쓰기*/
+}
+
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  margin-left: -12px; /*헤딩 내어쓰기*/
+}
+
+.markdown-body h1:first-child,
+.markdown-body h2:first-child,
+.markdown-body h3:first-child,
+.markdown-body h4:first-child,
+.markdown-body h5:first-child,
+.markdown-body h6:first-child {
+  margin-top: 0px;
+}
+
 
 .markdown-body h2 {
   margin-top: 24px;
@@ -412,7 +441,7 @@
 
 .markdown-body ul,
 .markdown-body ol {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0;
   /*padding-left: 2em; 리스트 마진 너무 큼 !! */
 }
@@ -502,7 +531,7 @@
 }
 
 .markdown-body p {
-  margin-top: 0px;
+  margin-top: 0.5rem;
   margin-bottom: 1rem; /* 문단 하단의 마진 */
 }
 
@@ -524,19 +553,22 @@
   margin-bottom: 0.7rem;
 }
 
-/*중첩된 목록간 간격*/
-.markdown-body ul ul,
-.markdown-body ol ul {
-  margin-top: 0.7rem;
-  list-style: none;
+.markdown-body ul > p {
+  margin-left: 1rem;
 }
 
-.markdown-body ul ol,
+/*중첩된 목록간 간격*/
+/* .markdown-body ul ul,
+.markdown-body ol ul {
+  line-height: 1.2rem
+  list-style: none;
+}*/
+
+/* .markdown-body ul ol,
 .markdown-body ol ol {
   margin-top: 0.7rem;
   list-style: none;
-  /* margin-bottom: 0.7rem; */
-}
+}  */
 
 .markdown-body blockquote,
 .markdown-body table,
