@@ -22,7 +22,6 @@ export default class MyDocument extends Document {
                     <link id="theme-css" href={`/themes/aaa/theme.css`} rel="stylesheet"></link>
                 </Head>
                 <body>
-                   <script src="/move.js"></script>
                     <Main />
                     <NextScript />
                 </body>
