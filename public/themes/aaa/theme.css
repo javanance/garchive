@@ -5928,16 +5928,24 @@
 }
 
 .p-chip {
-  background-color: #dfe7ef;
-  color: #043d75;
-  border-radius: 16px;
+  background-color: #FFD54F ; /*#dfe7ef;*/
+  color: #000000 ; /*#043d75;*/
+  border-radius: 20px;
   padding: 0 0.75rem;
+  margin: 0.1rem;
+  font-style:oblique  ;
+  letter-spacing: -1px;
+  font-size: small;
 }
 .p-chip .p-chip-text {
   line-height: 1.5;
   margin-top: 0.375rem;
   margin-bottom: 0.375rem;
 }
+.p-chip-text p {
+  margin: 0 !important;
+}
+
 .p-chip .p-chip-icon {
   margin-right: 0.5rem;
 }

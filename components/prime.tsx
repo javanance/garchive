@@ -182,6 +182,13 @@ return (
 );
 };
 
+// checklist 작성용 
+const Cl = ({ children, icon = 'pi pi-question-circle', removable = true }) => {
+    return (
+      <Chip label={children} icon={icon} removable={removable} />
+    );
+  };
+
 // default style 지정 이미지 : 가운데 정렬, 최대 사이즈 고정
 const CenterImg = (props) => {
   const { src, width = 600, imageStyle = { display: 'block', margin: '0 auto' }, caption } = props;
@@ -194,4 +201,4 @@ const CenterImg = (props) => {
   );
 };
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, Cmt, CenterImg, Chip};
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, Cmt, CenterImg, Chip,Cl};
