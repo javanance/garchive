@@ -4,6 +4,7 @@
           "label": "Disclaimer",
           "items": [
                  { "label": "intro", "icon": "pi pi-fw pi-info-circle", "to": "/kics/intro" }
+                ,{ "label": "TODO", "icon": "pi pi-fw pi-truck", "to": "/kics/todo" }
             ]
      }
      ,{
@@ -49,6 +50,7 @@
                                    ,{ "label": "3) 원화 할인율 산출"  , "to": "/kics/253" }
                                    ,{ "label": "4) 변동성 조정"      , "to": "/kics/254" }
                                    ,{ "label": "5) 매칭 조정"       , "to": "/kics/255" }
+                                   ,{ "label": "6) 해외통화 할인율"       , "to": "/kics/256" }
                                  ]}
                  ]
              }

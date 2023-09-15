@@ -15,10 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        
+
 
         <div className={styles.grid}>
-         {'AAAA'}
+         {'1ㅍㅔ이지입니다'}
         </div>
       </main>
     </>

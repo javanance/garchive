@@ -1,5 +1,4 @@
-
-import React, { Children, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 // import 'primereact/resources/themes/bootstrap4-light-blue/theme.css';
 // import 'primereact/resources/themes/lara-light-indigo/theme.css';
 // import 'primereact/resources/themes/lara-light-indigo/theme.css';
@@ -12,7 +11,6 @@ import React, { Children, useState, useEffect } from 'react';
 import { Button } from 'primereact/button';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Card } from 'primereact/card';
-import { Dialog } from 'primereact/dialog';
 import { OverlayPanel } from 'primereact/overlaypanel';
 import { TabView, TabPanel } from 'primereact/tabview';
 import { DataTable} from 'primereact/datatable';
@@ -20,9 +18,9 @@ import { Column } from 'primereact/column';
 import { Panel } from 'primereact/panel';
 import { Fieldset  } from 'primereact/fieldset';
 import { Message } from 'primereact/message';
-import { PrimeIcons } from 'primereact/api';
 import { Image } from 'primereact/image';
 import { Chip } from 'primereact/chip';
+
 
 
 const GSheet = (props) => {
@@ -182,6 +180,65 @@ return (
 );
 };
 
+// checklist 작성용 
+// const Cl = ({ children, icon = 'pi pi-question-circle', removable = true }) => {
+//     return (
+//       <Chip label={children} icon={icon} removable={removable} />
+//     );
+//   };
+
+
+// const Cl = ({ children, icon = 'pi pi-question-circle', removable = true }) => {
+//   const { data, error } = useSWR('/data/check.json');
+//   if (error) {
+//     return <div>Failed to load</div>;
+//   }
+//   if (!data) {
+//     return <div>Loading...</div>; 
+//   }
+//   const selectedId = parseInt(children, 10);
+//   const selectedItem = data.find(item => item.id === selectedId);
+//   return (
+//     <Chip label={selectedItem ? selectedItem.desc : ''} icon={icon} removable={removable} />
+//   );
+// };
+
+const Cl = ({ children, icon = 'pi pi-question-circle', removable = true }) => {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('/data/check.json')
+      .then((response) => response.json())
+      .then((jsonData) => {
+        setData(jsonData);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (!data) {
+    return <div>Failed to load</div>;
+  }
+
+  const selectedId = parseInt(children, 10);
+  const selectedItem = data.find(item => item.id === selectedId);
+
+  return (
+    <Chip label={selectedItem ? selectedItem.desc : ''} icon={icon} removable={removable} />
+  );
+};
+
+
+
+
 // default style 지정 이미지 : 가운데 정렬, 최대 사이즈 고정
 const CenterImg = (props) => {
   const { src, width = 600, imageStyle = { display: 'block', margin: '0 auto' }, caption } = props;
@@ -194,4 +251,4 @@ const CenterImg = (props) => {
   );
 };
 
-export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, Cmt, CenterImg, Chip};
+export { Button, Accordion, AccordionTab, Card, Panel, TabView, TabPanel, OverlayPanel, DataTable, Column, Fieldset, Callout, M1, G2Col, GSheet, Math, Image, Cmt, CenterImg, Chip,Cl};

@@ -1,0 +1,76 @@
+---
+title: 진행사항 및 앞으로 할일
+---
+
+# Prepare
+
+<Accordion multiple activeIndex={[]}>
+<AccordionTab header="블로그 만들기 준비">
+
+React 기반 블로그를 만드는 과정.
+
+1. node 설치 : v18.16
+2. Github에서 project clone (Nextjs [^1]) 
+3. 로컬의 복제한 위치에서 cmd 창에 `yarn` 입력 
+    - 프로젝트 내 package.json 파일을 기반으로 필요한 관련 프로그램들을 설치해준다. 
+4. 개발모드로 실행하기 cmd 창에 `yarn dev` 입력 
+
+[^1]: Nextjs : 웹 어플리케이션을 만들기 위한  리액트 프로젝트의 프레임워크. ( 리액트 프로젝트 설정을 하는 기능, 라우팅 시스템, 최적화, 다국어 시스템 지원, 서버 사이드 렌더링 등 다양한 기능들을 제공)
+
+</AccordionTab>
+</Accordion>
+
+
+# Done
+
+<Accordion multiple activeIndex={[]}>
+<AccordionTab header="검증 가이던스 체크리스트 질문 추가 (~2023.09.14 )">
+    1. `<Chip>` 테마 색상 변경 
+        ```css
+        .p-chip {
+            background-color: #FFD54F ; /* 배경색 변경 (노랑) #dfe7ef;*/
+            color: #000000 ; /*글자색 변경 (검정) #043d75;*/
+            border-radius: 20px; /*chip 모양 (둥글게)*/
+            padding: 0 0.75rem;
+            margin: 0.1rem;
+            font-style:oblique  ; /* 글꼴 기울이기 */ 
+            letter-spacing: -1px; /* 자간줄이기 */
+            font-size: small; /* 글꼴크기 작게 */
+            }
+        ```
+    2. 컴포넌트 : `<Chip>`을 래핑하여 `<Cl>` 추가
+        - tag 사이에 id 값을 입력하면 desc의 문자열을 Chip의 label로 매핑하는 태그 
+        - prime.tsx에 태그 추가
+        - 추가한 태그를 사용하는 page에서 import : pages/kics/[..slug].tsx
+
+    3. data : JSON 파일 처리 (public/data/`check.json`)
+        ```
+            {
+            "id": 1,
+            "desc": "그룹기준으로 산출되었으며 그룹의 범위는 <표1> 건전성감독기준 재무상태표 작성방법에 따라 결정되었는가?"
+            },
+            {
+            "id": 2,
+            "desc": "지급여력비율은 지급여력금액을 지급여력기준금액으로 나눈 값으로 정확하게 산출되었는가?"
+            },...
+        }
+        ```
+    4.page마다 내용과 관련 위치에 체크리스트 추가하기 
+    - 적용 : 
+        ```
+        <Cl>2</Cl>
+        ```
+    - 적용결과 <Cl>2</Cl>
+
+</AccordionTab>
+<AccordionTab header="K-ICS 해설서 이미지 배경색 처리 (회색 -> 흰색) (~2023.09.15)">
+    - 수정파일 대상 : public > kics > ###.png file 
+</AccordionTab>
+</Accordion>
+
+
+
+# Todo
+- [ ] 그동안 작업한 파일 옮기기 (garchive -> app version blog) 
+- [ ] comment 댓글기능 -> app version에서 처리하기 
+- [ ] search 기능추가 -> app version에서 처리하기  
